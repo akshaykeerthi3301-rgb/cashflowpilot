@@ -93,6 +93,11 @@ export function parseDuration(s: string | null): number | undefined {
   return Math.ceil(Number(m[1] ?? 0) * 60000 + Number(m[2] ?? 0) * 1000 + Number(m[3] ?? 0));
 }
 
+// Only the working prototype calls a real model. The sales demo is simulated by design (the README says so) and
+// must not spend the shared AI quota; DEMO_LIVE_AI=on lets it use the model too.
+const LIVE_TASKS = new Set(["extract_document"]);
+const liveAllowed = (task: string) => LIVE_TASKS.has(task) || process.env.DEMO_LIVE_AI === "on";
+
 const callModel = <S extends z.ZodType>(schema: S, input: ModelInput) =>
   aiProvider() === "groq" ? callGroq(schema, input) : callClaude(schema, input);
 
@@ -107,7 +112,7 @@ export async function runTask<S extends z.ZodType<{ confidence: number }>>(
   // Circuit breakers: per-lead budget (all calls), then a global daily cap on real model calls.
   const withinLead = ctx.leadId ? await bumpUsage(ctx.ws, `ai:${ctx.leadId}`, LIMITS.aiCallsPerLead, false) : true;
   if (!withinLead) await audit(ctx.ws, ctx.leadId, "system", "ai.budget_exhausted", { task });
-  const useModel = withinLead && !!aiProvider() && (await bumpUsage("global", "ai_real", LIMITS.realAiCallsPerDay));
+  const useModel = withinLead && liveAllowed(task) && !!aiProvider() && (await bumpUsage("global", "ai_real", LIMITS.realAiCallsPerDay));
 
   let raw: unknown, source: "mock" | "model" = "mock";
   const model = useModel ? modelName(prompt) : undefined;

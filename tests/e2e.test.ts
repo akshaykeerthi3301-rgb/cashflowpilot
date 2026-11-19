@@ -137,9 +137,11 @@ describe("circuit breakers and safety", () => {
 });
 
 describe("AI boundary", () => {
+  beforeEach(() => void (process.env.DEMO_LIVE_AI = "on")); // these tests exercise the live-model path on purpose
   afterEach(() => {
     vi.unstubAllGlobals();
     delete process.env.ANTHROPIC_API_KEY;
+    delete process.env.DEMO_LIVE_AI;
   });
   const reply = (text: string) =>
     new Response(
@@ -147,6 +149,16 @@ describe("AI boundary", () => {
       { status: 200, headers: { "content-type": "application/json" } },
     );
   const c = COMPANIES[0];
+
+  test("the simulated sales demo never calls a real model, even with a key set", async () => {
+    delete process.env.DEMO_LIVE_AI;
+    process.env.ANTHROPIC_API_KEY = "test";
+    const spy = vi.fn(async () => reply("{}"));
+    vi.stubGlobal("fetch", spy);
+    const r = await extractSignals({ ws, leadId: null }, c);
+    expect(r.source).toBe("mock");
+    expect(spy).not.toHaveBeenCalled();
+  });
 
   test("31st AI call for a lead never reaches the paid model", async () => {
     process.env.ANTHROPIC_API_KEY = "test";
