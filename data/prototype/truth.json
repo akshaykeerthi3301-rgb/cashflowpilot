@@ -1,0 +1,2524 @@
+{
+ "kaveri": {
+  "invoices": [
+   {
+    "id": "KN-001",
+    "number": "S1/26-27/1000",
+    "supplierId": "S1",
+    "supplierName": "Nimbus Components Pvt Ltd",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2400",
+    "date": "01-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "description": "NVMe SSD 512 GB",
+      "qty": 15,
+      "unitPrice": 345000,
+      "gstRate": 18
+     },
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "description": "DDR5 RAM 16 GB",
+      "qty": 13,
+      "unitPrice": 289900,
+      "gstRate": 18
+     },
+     {
+      "sku": "PSU-650",
+      "hsn": "8504",
+      "description": "Power Supply 650 W",
+      "qty": 3,
+      "unitPrice": 512000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 1886346,
+    "roundOff": -46,
+    "grandTotal": 12366000,
+    "amountInWords": "Rupees One Lakh Twenty Three Thousand Six Hundred Sixty Only",
+    "supplierGstin": "29AADCN4417K1Z8",
+    "cgst": 943173,
+    "sgst": 943173,
+    "igst": 0
+   },
+   {
+    "id": "KN-002",
+    "number": "S2/26-27/1001",
+    "supplierId": "S2",
+    "supplierName": "Saffron Spice Traders",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2401",
+    "date": "02-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25",
+      "hsn": "0910",
+      "description": "Black Pepper, 25 kg bag",
+      "qty": 13,
+      "unitPrice": 1850000,
+      "gstRate": 5
+     },
+     {
+      "sku": "CARD-GRN-10",
+      "hsn": "0910",
+      "description": "Green Cardamom, 10 kg",
+      "qty": 9,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 2282456,
+    "roundOff": 44,
+    "grandTotal": 47931600,
+    "amountInWords": "Rupees Four Lakh Seventy Nine Thousand Three Hundred Sixteen Only",
+    "supplierGstin": "32ABKFS2290Q1ZM",
+    "cgst": 1141228,
+    "sgst": 1141228,
+    "igst": 0
+   },
+   {
+    "id": "KN-003",
+    "number": "S3/26-27/1002",
+    "supplierId": "S3",
+    "supplierName": "Loomcraft Apparel",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2402",
+    "date": "03-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "hsn": "6109",
+      "description": "Cotton T-shirt, size M",
+      "qty": 393,
+      "unitPrice": 36440,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 716046,
+    "roundOff": 34,
+    "grandTotal": 15037000,
+    "amountInWords": "Rupees One Lakh Fifty Thousand Three Hundred Seventy Only",
+    "supplierGstin": "33AAJFL7731C1ZJ",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 716046
+   },
+   {
+    "id": "KN-004",
+    "number": "S4/26-27/1003",
+    "supplierId": "S4",
+    "supplierName": "PolyPack Industries",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2403",
+    "date": "04-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "description": "Poly mailer bag, A4",
+      "qty": 3711,
+      "unitPrice": 1250,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 834975,
+    "roundOff": -25,
+    "grandTotal": 5473700,
+    "amountInWords": "Rupees Fifty Four Thousand Seven Hundred Thirty Seven Only",
+    "supplierGstin": "27AAGCP5108M1Z5",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 834975
+   },
+   {
+    "id": "KN-005",
+    "number": "S5/26-27/1004",
+    "supplierId": "S5",
+    "supplierName": "Ledgerwise Consulting LLP",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2404",
+    "date": "05-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUD-HR",
+      "hsn": "9983",
+      "description": "Audit support services (per hour)",
+      "qty": 27,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 2187000,
+    "roundOff": 0,
+    "grandTotal": 14337000,
+    "amountInWords": "Rupees One Lakh Forty Four Thousand Twenty Six Only",
+    "supplierGstin": "29AAHFL3302B1ZT",
+    "cgst": 1093500,
+    "sgst": 1093500,
+    "igst": 0
+   },
+   {
+    "id": "KN-006",
+    "number": "S6/26-27/1005",
+    "supplierId": "S6",
+    "supplierName": "Harborline Freight",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2405",
+    "date": "06-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "description": "Full truck load, Bengaluru to Mumbai",
+      "qty": 2,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     },
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "description": "Part load, per pallet",
+      "qty": 17,
+      "unitPrice": 650000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 3501000,
+    "roundOff": 0,
+    "grandTotal": 22951000,
+    "amountInWords": "Rupees Two Lakh Twenty Nine Thousand Five Hundred Ten Only",
+    "supplierGstin": "27AABCH6624H1ZM",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 3501000
+   },
+   {
+    "id": "KN-007",
+    "number": "S1/26-27/1006",
+    "supplierId": "S1",
+    "supplierName": "Nimbus Components Pvt Ltd",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2406",
+    "date": "07-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PSU-650",
+      "hsn": "8504",
+      "description": "Power Supply 650 W",
+      "qty": 10,
+      "unitPrice": 512000,
+      "gstRate": 28
+     },
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "description": "DDR5 RAM 16 GB",
+      "qty": 24,
+      "unitPrice": 289900,
+      "gstRate": 18
+     },
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "description": "NVMe SSD 512 GB",
+      "qty": 24,
+      "unitPrice": 345000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 4176368,
+    "roundOff": 32,
+    "grandTotal": 24534000,
+    "amountInWords": "Rupees Two Lakh Forty Five Thousand Three Hundred Forty Only",
+    "supplierGstin": "29AADCN4417K1Z8",
+    "cgst": 2088184,
+    "sgst": 2088184,
+    "igst": 0
+   },
+   {
+    "id": "KN-008",
+    "number": "S2/26-27/1007",
+    "supplierId": "S2",
+    "supplierName": "Saffron Spice Traders",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2407",
+    "date": "08-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25",
+      "hsn": "0910",
+      "description": "Black Pepper, 25 kg bag",
+      "qty": 4,
+      "unitPrice": 1850000,
+      "gstRate": 5
+     },
+     {
+      "sku": "CARD-GRN-10",
+      "hsn": "0910",
+      "description": "Green Cardamom, 10 kg",
+      "qty": 2,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 609990,
+    "roundOff": 10,
+    "grandTotal": 12809800,
+    "amountInWords": "Rupees One Lakh Twenty Eight Thousand Ninety Eight Only",
+    "supplierGstin": "32ABKFS2290Q1ZM",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 609990
+   },
+   {
+    "id": "KN-009",
+    "number": "S3/26-27/1008",
+    "supplierId": "S3",
+    "supplierName": "Loomcraft Apparel",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2408",
+    "date": "09-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "hsn": "6109",
+      "description": "Cotton T-shirt, size L",
+      "qty": 187,
+      "unitPrice": 36900,
+      "gstRate": 5
+     },
+     {
+      "sku": "TEE-CTN-M",
+      "hsn": "6109",
+      "description": "Cotton T-shirt, size M",
+      "qty": 369,
+      "unitPrice": 34900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [
+     {
+      "label": "Handling charges",
+      "amount": 396068
+     }
+    ],
+    "taxType": "IGST",
+    "taxTotal": 988920,
+    "roundOff": 12,
+    "grandTotal": 21163400,
+    "amountInWords": "Rupees Two Lakh Eleven Thousand Six Hundred Thirty Four Only",
+    "supplierGstin": "33AAJFL7731C1ZJ",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 988920
+   },
+   {
+    "id": "KN-010",
+    "number": "S4/26-27/1009",
+    "supplierId": "S4",
+    "supplierName": "PolyPack Industries",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2409",
+    "date": "10-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "description": "Poly mailer bag, A4",
+      "qty": 1754,
+      "unitPrice": 1250,
+      "gstRate": 18
+     },
+     {
+      "sku": "BUBBLE-100",
+      "hsn": "3923",
+      "description": "Bubble wrap roll, 100 m",
+      "qty": 22,
+      "unitPrice": 89000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 747090,
+    "roundOff": 10,
+    "grandTotal": 4897600,
+    "amountInWords": "Rupees Forty Eight Thousand Nine Hundred Seventy Six Only",
+    "supplierGstin": "27AAGCP5108M1Z5",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 747090
+   },
+   {
+    "id": "KN-011",
+    "number": "S5/26-27/1010",
+    "supplierId": "S5",
+    "supplierName": "Ledgerwise Consulting LLP",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2410",
+    "date": "11-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUD-HR",
+      "hsn": "9983",
+      "description": "Audit support services (per hour)",
+      "qty": 29,
+      "unitPrice": 481410,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 2512960,
+    "roundOff": 50,
+    "grandTotal": 16473900,
+    "amountInWords": "Rupees One Lakh Sixty Four Thousand Seven Hundred Thirty Nine Only",
+    "supplierGstin": "29AAHFL3302B1ZT",
+    "cgst": 1256480,
+    "sgst": 1256480,
+    "igst": 0
+   },
+   {
+    "id": "KN-012",
+    "number": "S6/26-27/1011",
+    "supplierId": "S6",
+    "supplierName": "Harborline Freight",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2411",
+    "date": "12-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "description": "Part load, per pallet",
+      "qty": 20,
+      "unitPrice": 650000,
+      "gstRate": 18
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "description": "Full truck load, Bengaluru to Mumbai",
+      "qty": 6,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 6876000,
+    "roundOff": 0,
+    "grandTotal": 45076000,
+    "amountInWords": "Rupees Four Lakh Fifty Thousand Seven Hundred Sixty Only",
+    "supplierGstin": "27AABCH6624H1ZM",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 6876000
+   },
+   {
+    "id": "KN-013",
+    "number": "S1/26-27/1012",
+    "supplierId": "S1",
+    "supplierName": "Nimbus Components Pvt Ltd",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2412",
+    "date": "13-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PSU-650",
+      "hsn": "8504",
+      "description": "Power Supply 650 W",
+      "qty": 3,
+      "unitPrice": 512000,
+      "gstRate": 18
+     },
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "description": "DDR5 RAM 16 GB",
+      "qty": 7,
+      "unitPrice": 289900,
+      "gstRate": 18
+     },
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "description": "NVMe SSD 512 GB",
+      "qty": 37,
+      "unitPrice": 345000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 2939454,
+    "roundOff": 46,
+    "grandTotal": 19269800,
+    "amountInWords": "Rupees One Lakh Ninety Two Thousand Six Hundred Ninety Eight Only",
+    "supplierGstin": "29AADCN4417K1Z8",
+    "cgst": 1469727,
+    "sgst": 1469727,
+    "igst": 0
+   },
+   {
+    "id": "KN-014",
+    "number": "S2/26-27/1013",
+    "supplierId": "S2",
+    "supplierName": "Saffron Spice Traders",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2413",
+    "date": "14-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10",
+      "hsn": "0910",
+      "description": "Green Cardamom, 10 kg",
+      "qty": 3,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     },
+     {
+      "sku": "PEP-BLK-25",
+      "hsn": "0910",
+      "description": "Black Pepper, 25 kg bag",
+      "qty": 13,
+      "unitPrice": 1850000,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 1562485,
+    "roundOff": 15,
+    "grandTotal": 32812200,
+    "amountInWords": "Rupees Three Lakh Twenty Eight Thousand One Hundred Twenty Two Only",
+    "supplierGstin": "32ABKFS2290Q1ZM",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1562485
+   },
+   {
+    "id": "KN-015",
+    "number": "S3/26-27/1014",
+    "supplierId": "S3",
+    "supplierName": "Loomcraft Apparel",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2414",
+    "date": "15-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "hsn": "6109",
+      "description": "Cotton T-shirt, size M",
+      "qty": 206,
+      "unitPrice": 34900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 359470,
+    "roundOff": 30,
+    "grandTotal": 7548900,
+    "amountInWords": "Rupees Seventy Five Thousand Four Hundred Eighty Nine Only",
+    "supplierGstin": "33AAJFL7731C1ZJ",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 359470
+   },
+   {
+    "id": "KN-016",
+    "number": "S4/26-27/1009",
+    "supplierId": "S4",
+    "supplierName": "PolyPack Industries",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2409",
+    "date": "10-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "description": "Poly mailer bag, A4",
+      "qty": 1754,
+      "unitPrice": 1250,
+      "gstRate": 18
+     },
+     {
+      "sku": "BUBBLE-100",
+      "hsn": "3923",
+      "description": "Bubble wrap roll, 100 m",
+      "qty": 22,
+      "unitPrice": 89000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 747090,
+    "roundOff": 10,
+    "grandTotal": 4897600,
+    "amountInWords": "Rupees Forty Eight Thousand Nine Hundred Seventy Six Only",
+    "supplierGstin": "27AAGCP5108M1Z5",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 747090
+   },
+   {
+    "id": "KN-017",
+    "number": "S5/26-27/1016",
+    "supplierId": "S5",
+    "supplierName": "Ledgerwise Consulting LLP",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2416",
+    "date": "17-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUD-HR",
+      "hsn": "9983",
+      "description": "Audit support services (per hour)",
+      "qty": 7,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [
+     {
+      "label": "Fuel surcharge",
+      "amount": 63500
+     }
+    ],
+    "taxType": "CGST_SGST",
+    "taxTotal": 567000,
+    "roundOff": 0,
+    "grandTotal": 3780500,
+    "amountInWords": "Rupees Thirty Seven Thousand Eight Hundred Five Only",
+    "supplierGstin": "29AAHFL3302B1ZT",
+    "cgst": 283500,
+    "sgst": 283500,
+    "igst": 0
+   },
+   {
+    "id": "KN-018",
+    "number": "S6/26-27/1017",
+    "supplierId": "S6",
+    "supplierName": "Harborline Freight",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2417",
+    "date": "18-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "description": "Part load, per pallet",
+      "qty": 15,
+      "unitPrice": 650000,
+      "gstRate": 18
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "description": "Full truck load, Bengaluru to Mumbai",
+      "qty": 2,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 3267000,
+    "roundOff": 0,
+    "grandTotal": 21417000,
+    "amountInWords": "Rupees Two Lakh Fourteen Thousand One Hundred Seventy Only",
+    "supplierGstin": "27AABCH6624H1ZM",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 3267000
+   },
+   {
+    "id": "KN-019",
+    "number": "S1/26-27/1018",
+    "supplierId": "S1",
+    "supplierName": "Nimbus Components Pvt Ltd",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2418",
+    "date": "19-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PSU-650",
+      "hsn": "8504",
+      "description": "Power Supply 650 W",
+      "qty": 10,
+      "unitPrice": 512000,
+      "gstRate": 18
+     },
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "description": "DDR5 RAM 16 GB",
+      "qty": 24,
+      "unitPrice": 289900,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 2173968,
+    "roundOff": 32,
+    "grandTotal": 14253200,
+    "amountInWords": "Rupees One Lakh Forty Two Thousand Five Hundred Thirty Two Only",
+    "supplierGstin": "29AADCN4417K1Z8",
+    "cgst": 1086984,
+    "sgst": 1086984,
+    "igst": 0
+   },
+   {
+    "id": "KN-020",
+    "number": "S2/26-27/1019",
+    "supplierId": "S2",
+    "supplierName": "Saffron Spice Traders",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2419",
+    "date": "20-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25",
+      "hsn": "0910",
+      "description": "Black Pepper, 25 kg bag",
+      "qty": 12,
+      "unitPrice": 1850000,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 1110000,
+    "roundOff": 0,
+    "grandTotal": 23310000,
+    "amountInWords": "Rupees Two Lakh Thirty Three Thousand One Hundred Only",
+    "supplierGstin": "32ABKFS2290Q1ZM",
+    "cgst": 555000,
+    "sgst": 555000,
+    "igst": 0
+   },
+   {
+    "id": "KN-021",
+    "number": "S3/26-27/1020",
+    "supplierId": "S3",
+    "supplierName": "Loomcraft Apparel",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2420",
+    "date": "21-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "hsn": "6109",
+      "description": "Cotton T-shirt, size M",
+      "qty": 113,
+      "unitPrice": 34900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 197185,
+    "roundOff": 15,
+    "grandTotal": 4140900,
+    "amountInWords": "Rupees Forty One Thousand Four Hundred Nine Only",
+    "supplierGstin": "33AAJFL7731C1ZJ",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 197185
+   },
+   {
+    "id": "KN-022",
+    "number": "S4/26-27/1021",
+    "supplierId": "S4",
+    "supplierName": "PolyPack Industries",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2421",
+    "date": "22-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "description": "Poly mailer bag, A4",
+      "qty": 1768,
+      "unitPrice": 1250,
+      "gstRate": 18
+     },
+     {
+      "sku": "BUBBLE-100",
+      "hsn": "3923",
+      "description": "Bubble wrap roll, 100 m",
+      "qty": 35,
+      "unitPrice": 89000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 958500,
+    "roundOff": 0,
+    "grandTotal": 6283500,
+    "amountInWords": "Rupees Sixty Two Thousand Eight Hundred Thirty Five Only",
+    "supplierGstin": "27AAGCP5108M1Z5",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 958500
+   },
+   {
+    "id": "KN-023",
+    "number": "S5/26-27/1022",
+    "supplierId": "S5",
+    "supplierName": "Ledgerwise Consulting LLP",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2422",
+    "date": "23-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUD-HR",
+      "hsn": "9983",
+      "description": "Audit support services (per hour)",
+      "qty": 15,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 1215000,
+    "roundOff": 0,
+    "grandTotal": 7965000,
+    "amountInWords": "Rupees Seventy Nine Thousand Six Hundred Fifty Only",
+    "supplierGstin": "29AAHFL3302B1ZT",
+    "cgst": 607500,
+    "sgst": 607500,
+    "igst": 0
+   },
+   {
+    "id": "KN-024",
+    "number": "S6/26-27/1023",
+    "supplierId": "S6",
+    "supplierName": "Harborline Freight",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2423",
+    "date": "24-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "description": "Part load, per pallet",
+      "qty": 20,
+      "unitPrice": 650000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 2340000,
+    "roundOff": 0,
+    "grandTotal": 15340000,
+    "amountInWords": "Rupees One Lakh Fifty Three Thousand Four Hundred Only",
+    "supplierGstin": "27AABCH6624H1ZM",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 2340000
+   },
+   {
+    "id": "KN-025",
+    "number": "S1/26-27/1024",
+    "supplierId": "S1",
+    "supplierName": "Nimbus Components Pvt Ltd",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2424",
+    "date": "25-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "description": "NVMe SSD 512 GB",
+      "qty": 23,
+      "unitPrice": 345000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 1428300,
+    "roundOff": 0,
+    "grandTotal": 9367200,
+    "amountInWords": "Rupees Ninety Three Thousand Six Hundred Seventy Two Only",
+    "supplierGstin": "29AADCN4417K1Z8",
+    "cgst": 714150,
+    "sgst": 714150,
+    "igst": 0
+   },
+   {
+    "id": "KN-026",
+    "number": "S2/26-27/1025",
+    "supplierId": "S2",
+    "supplierName": "Saffron Spice Traders",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2425",
+    "date": "26-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25",
+      "hsn": "0910",
+      "description": "Black Pepper, 25 kg bag",
+      "qty": 13,
+      "unitPrice": 1850000,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 1202500,
+    "roundOff": 0,
+    "grandTotal": 25252500,
+    "amountInWords": "Rupees Two Lakh Fifty Two Thousand Five Hundred Twenty Five Only",
+    "supplierGstin": "32ABKFS2290Q1ZM",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1202500
+   },
+   {
+    "id": "KN-027",
+    "number": "S3/26-27/1026",
+    "supplierId": "S3",
+    "supplierName": "Loomcraft Apparel",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2426",
+    "date": "27-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "hsn": "6109",
+      "description": "Cotton T-shirt, size L",
+      "qty": 121,
+      "unitPrice": 36900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 223245,
+    "roundOff": -45,
+    "grandTotal": 4688100,
+    "amountInWords": "Rupees Forty Six Thousand Eight Hundred Eighty One Only",
+    "supplierGstin": "33AAJFL7731C1ZJ",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 223245
+   },
+   {
+    "id": "KN-028",
+    "number": "S4/26-27/1027",
+    "supplierId": "S4",
+    "supplierName": "PolyPack Industries",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2427",
+    "date": "28-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "description": "Poly mailer bag, A4",
+      "qty": 650,
+      "unitPrice": 1250,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 146250,
+    "roundOff": 50,
+    "grandTotal": 958800,
+    "amountInWords": "Rupees Nine Thousand Five Hundred Eighty Eight Only",
+    "supplierGstin": "27AAGCP5108M1Z5",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 146250
+   },
+   {
+    "id": "KN-029",
+    "number": "S5/26-27/1028",
+    "supplierId": "S5",
+    "supplierName": "Ledgerwise Consulting LLP",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2428",
+    "date": "29-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUD-HR",
+      "hsn": "9983",
+      "description": "Audit support services (per hour)",
+      "qty": 38,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 3078000,
+    "roundOff": 0,
+    "grandTotal": 20178000,
+    "amountInWords": "Rupees Two Lakh One Thousand Seven Hundred Eighty Only",
+    "supplierGstin": "29AAHFL3302B1ZT",
+    "cgst": 1539000,
+    "sgst": 1539000,
+    "igst": 0
+   },
+   {
+    "id": "KN-030",
+    "number": "S6/26-27/1029",
+    "supplierId": "S6",
+    "supplierName": "Harborline Freight",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2429",
+    "date": "30-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "description": "Part load, per pallet",
+      "qty": 15,
+      "unitPrice": 650000,
+      "gstRate": 18
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "description": "Full truck load, Bengaluru to Mumbai",
+      "qty": 2,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 3267000,
+    "roundOff": 0,
+    "grandTotal": 21417000,
+    "amountInWords": "Rupees Two Lakh Fourteen Thousand One Hundred Seventy Only",
+    "supplierGstin": "27AABCH6624H1ZM",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 3267000
+   },
+   {
+    "id": "KN-031",
+    "number": "S1/26-27/1030",
+    "supplierId": "S1",
+    "supplierName": "Nimbus Components Pvt Ltd",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2430",
+    "date": "01-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "description": "NVMe SSD 512 GB",
+      "qty": 35,
+      "unitPrice": 345000,
+      "gstRate": 18
+     },
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "description": "DDR5 RAM 16 GB",
+      "qty": 6,
+      "unitPrice": 289900,
+      "gstRate": 18
+     },
+     {
+      "sku": "PSU-650",
+      "hsn": "8504",
+      "description": "Power Supply 650 W",
+      "qty": 12,
+      "unitPrice": 512000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 3592512,
+    "roundOff": -12,
+    "grandTotal": 23550900,
+    "amountInWords": "Rupees Two Lakh Thirty Five Thousand Five Hundred Nine Only",
+    "supplierGstin": "29AADCN4417K1Z8",
+    "cgst": 1796256,
+    "sgst": 1796256,
+    "igst": 0
+   },
+   {
+    "id": "KN-032",
+    "number": "S2/26-27/1031",
+    "supplierId": "S2",
+    "supplierName": "Saffron Spice Traders",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2431",
+    "date": "02-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10",
+      "hsn": "0910",
+      "description": "Green Cardamom, 10 kg",
+      "qty": 10,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 1199950,
+    "roundOff": 50,
+    "grandTotal": 25199000,
+    "amountInWords": "Rupees Two Lakh Fifty One Thousand Nine Hundred Ninety Only",
+    "supplierGstin": "32ABKFS2290Q1ZM",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1199950
+   },
+   {
+    "id": "KN-033",
+    "number": "S3/26-27/1032",
+    "supplierId": "S3",
+    "supplierName": "Loomcraft Apparel",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2432",
+    "date": "03-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "hsn": "6109",
+      "description": "Cotton T-shirt, size L",
+      "qty": 149,
+      "unitPrice": 36900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 340920,
+    "roundOff": -20,
+    "grandTotal": 5839000,
+    "amountInWords": "Rupees Fifty Eight Thousand Three Hundred Ninety Only",
+    "supplierGstin": "33AAJFL7731C1ZJ",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 340920
+   },
+   {
+    "id": "KN-034",
+    "number": "S4/26-27/1033",
+    "supplierId": "S4",
+    "supplierName": "PolyPack Industries",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2433",
+    "date": "04-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "BUBBLE-100",
+      "hsn": "3923",
+      "description": "Bubble wrap roll, 100 m",
+      "qty": 34,
+      "unitPrice": 89000,
+      "gstRate": 18
+     },
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "description": "Poly mailer bag, A4",
+      "qty": 4398,
+      "unitPrice": 1250,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 1534230,
+    "roundOff": -30,
+    "grandTotal": 10057700,
+    "amountInWords": "Rupees One Lakh Five Hundred Seventy Seven Only",
+    "supplierGstin": "27AAGCP5108M1Z5",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1534230
+   },
+   {
+    "id": "KN-035",
+    "number": "S5/26-27/1028",
+    "supplierId": "S5",
+    "supplierName": "Ledgerwise Consulting LLP",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2428",
+    "date": "29-09-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUD-HR",
+      "hsn": "9983",
+      "description": "Audit support services (per hour)",
+      "qty": 38,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 3078000,
+    "roundOff": 0,
+    "grandTotal": 20178000,
+    "amountInWords": "Rupees Two Lakh One Thousand Seven Hundred Eighty Only",
+    "supplierGstin": "29AAHFL3302B1ZT",
+    "cgst": 1539000,
+    "sgst": 1539000,
+    "igst": 0
+   },
+   {
+    "id": "KN-036",
+    "number": "S6/26-27/1035",
+    "supplierId": "S6",
+    "supplierName": "Harborline Freight",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2435",
+    "date": "06-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "description": "Full truck load, Bengaluru to Mumbai",
+      "qty": 6,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     },
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "description": "Part load, per pallet",
+      "qty": 14,
+      "unitPrice": 650000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 6174000,
+    "roundOff": 0,
+    "grandTotal": 40474000,
+    "amountInWords": "Rupees Four Lakh Five Thousand Three Hundred Seventy Five Only",
+    "supplierGstin": "27AABCH6624H1ZM",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 6174000
+   },
+   {
+    "id": "KN-037",
+    "number": "S1/26-27/1036",
+    "supplierId": "S1",
+    "supplierName": "Nimbus Components Pvt Ltd",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2436",
+    "date": "07-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "description": "NVMe SSD 512 GB",
+      "qty": 12,
+      "unitPrice": 345000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 745200,
+    "roundOff": 0,
+    "grandTotal": 4885200,
+    "amountInWords": "Rupees Forty Eight Thousand Eight Hundred Fifty Two Only",
+    "supplierGstin": "29AADCN4417K1Z8",
+    "cgst": 372600,
+    "sgst": 372600,
+    "igst": 0
+   },
+   {
+    "id": "KN-038",
+    "number": "S2/26-27/1037",
+    "supplierId": "S2",
+    "supplierName": "Saffron Spice Traders",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2437",
+    "date": "08-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25",
+      "hsn": "0910",
+      "description": "Black Pepper, 25 kg bag",
+      "qty": 8,
+      "unitPrice": 1850000,
+      "gstRate": 5
+     },
+     {
+      "sku": "CARD-GRN-10",
+      "hsn": "0910",
+      "description": "Green Cardamom, 10 kg",
+      "qty": 8,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 1699960,
+    "roundOff": 40,
+    "grandTotal": 35699200,
+    "amountInWords": "Rupees Three Lakh Fifty Six Thousand Nine Hundred Ninety Two Only",
+    "supplierGstin": "32ABKFS2290Q1ZM",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1699960
+   },
+   {
+    "id": "KN-039",
+    "number": "S3/26-27/1038",
+    "supplierId": "S3",
+    "supplierName": "Loomcraft Apparel",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2438",
+    "date": "09-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "hsn": "6109",
+      "description": "Cotton T-shirt, size M",
+      "qty": 204,
+      "unitPrice": 34900,
+      "gstRate": 5
+     },
+     {
+      "sku": "TEE-CTN-L",
+      "hsn": "6109",
+      "description": "Cotton T-shirt, size L",
+      "qty": 187,
+      "unitPrice": 36900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 869271,
+    "roundOff": 29,
+    "grandTotal": 14889200,
+    "amountInWords": "Rupees One Lakh Forty Eight Thousand Eight Hundred Ninety Two Only",
+    "supplierGstin": "33AAJFL7731C1ZJ",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 869271
+   },
+   {
+    "id": "KN-040",
+    "number": "S4/26-27/1039",
+    "supplierId": "S4",
+    "supplierName": "PolyPack Industries",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2439",
+    "date": "10-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "description": "Poly mailer bag, A4",
+      "qty": 2993,
+      "unitPrice": 1250,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 673425,
+    "roundOff": 25,
+    "grandTotal": 4414700,
+    "amountInWords": "Rupees Forty Four Thousand One Hundred Forty Seven Only",
+    "supplierGstin": "27AAGCP5108M1Z5",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 673425
+   },
+   {
+    "id": "KN-041",
+    "number": "S5/26-27/1040",
+    "supplierId": "S5",
+    "supplierName": "Ledgerwise Consulting LLP",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2440",
+    "date": "11-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUD-HR",
+      "hsn": "9983",
+      "description": "Audit support services (per hour)",
+      "qty": 28,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 2268000,
+    "roundOff": 0,
+    "grandTotal": 14868000,
+    "amountInWords": "Rupees One Lakh Forty Eight Thousand Six Hundred Eighty Only",
+    "supplierGstin": "29AAHFL3302B1ZT",
+    "cgst": 1134000,
+    "sgst": 1134000,
+    "igst": 0
+   },
+   {
+    "id": "KN-042",
+    "number": "S6/26-27/1041",
+    "supplierId": "S6",
+    "supplierName": "Harborline Freight",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2441",
+    "date": "12-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "description": "Full truck load, Bengaluru to Mumbai",
+      "qty": 3,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 2268000,
+    "roundOff": 0,
+    "grandTotal": 14868000,
+    "amountInWords": "Rupees One Lakh Forty Eight Thousand Six Hundred Eighty Only",
+    "supplierGstin": "27AABCH6624H1ZM",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 2268000
+   },
+   {
+    "id": "KN-043",
+    "number": "S1/26-27/1042",
+    "supplierId": "S1",
+    "supplierName": "Nimbus Components Pvt Ltd",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2442",
+    "date": "13-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "description": "NVMe SSD 512 GB",
+      "qty": 29,
+      "unitPrice": 345000,
+      "gstRate": 18
+     },
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "description": "DDR5 RAM 16 GB",
+      "qty": 15,
+      "unitPrice": 289900,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 2583630,
+    "roundOff": -30,
+    "grandTotal": 16937100,
+    "amountInWords": "Rupees One Lakh Sixty Nine Thousand Three Hundred Seventy One Only",
+    "supplierGstin": "29AADCN4417K1Z8",
+    "cgst": 1291815,
+    "sgst": 1291815,
+    "igst": 0
+   },
+   {
+    "id": "KN-044",
+    "number": "S2/26-27/1043",
+    "supplierId": "S2",
+    "supplierName": "Saffron Spice Traders",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2443",
+    "date": "14-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25",
+      "hsn": "0910",
+      "description": "Black Pepper, 25 kg bag",
+      "qty": 13,
+      "unitPrice": 1850000,
+      "gstRate": 12
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 2886000,
+    "roundOff": 0,
+    "grandTotal": 26936000,
+    "amountInWords": "Rupees Two Lakh Sixty Nine Thousand Three Hundred Sixty Only",
+    "supplierGstin": "32ABKFS2290Q1ZM",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 2886000
+   },
+   {
+    "id": "KN-045",
+    "number": "S3/26-27/1044",
+    "supplierId": "S3",
+    "supplierName": "Loomcraft Apparel",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2444",
+    "date": "15-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "hsn": "6109",
+      "description": "Cotton T-shirt, size L",
+      "qty": 222,
+      "unitPrice": 36900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 409590,
+    "roundOff": 10,
+    "grandTotal": 8601400,
+    "amountInWords": "Rupees Eighty Six Thousand Fourteen Only",
+    "supplierGstin": "33AAJFL7731C1ZA",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 409590
+   },
+   {
+    "id": "KN-046",
+    "number": "S4/26-27/1045",
+    "supplierId": "S4",
+    "supplierName": "PolyPack Industries",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2445",
+    "date": "16-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "BUBBLE-100",
+      "hsn": "3923",
+      "description": "Bubble wrap roll, 100 m",
+      "qty": 40,
+      "unitPrice": 89000,
+      "gstRate": 18
+     },
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "description": "Poly mailer bag, A4",
+      "qty": 2906,
+      "unitPrice": 1250,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 1294650,
+    "roundOff": 50,
+    "grandTotal": 8487200,
+    "amountInWords": "Rupees Eighty Four Thousand Eight Hundred Seventy Two Only",
+    "supplierGstin": "27AAGCP5108M1Z5",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1294650
+   },
+   {
+    "id": "KN-047",
+    "number": "S5/26-27/1046",
+    "supplierId": "S5",
+    "supplierName": "Ledgerwise Consulting LLP",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2446",
+    "date": "17-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUD-HR",
+      "hsn": "9983",
+      "description": "Audit support services (per hour)",
+      "qty": 10,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "CGST_SGST",
+    "taxTotal": 810000,
+    "roundOff": 0,
+    "grandTotal": 5310000,
+    "amountInWords": "Rupees Fifty Three Thousand One Hundred Only",
+    "supplierGstin": "29AAHFL3302B1ZT",
+    "cgst": 405000,
+    "sgst": 405000,
+    "igst": 0
+   },
+   {
+    "id": "KN-048",
+    "number": "S6/26-27/1047",
+    "supplierId": "S6",
+    "supplierName": "Harborline Freight",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "buyerName": "Kaveri Naturals Pvt Ltd",
+    "buyerGstin": "29AAKCK4821N1ZY",
+    "poNumber": "PO/KN/2447",
+    "date": "18-10-2026",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "description": "Part load, per pallet",
+      "qty": 2,
+      "unitPrice": 650000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxType": "IGST",
+    "taxTotal": 234000,
+    "roundOff": 0,
+    "grandTotal": 1534000,
+    "amountInWords": "Rupees Fifteen Thousand Three Hundred Forty Only",
+    "supplierGstin": "27AABCH6624H1ZA",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 234000
+   }
+  ],
+  "answerKey": {
+   "KN-001": [],
+   "KN-002": [
+    "WRONG_TAX_TYPE"
+   ],
+   "KN-003": [
+    "PRICE_MISMATCH"
+   ],
+   "KN-004": [],
+   "KN-005": [
+    "WORDS_MISMATCH"
+   ],
+   "KN-006": [],
+   "KN-007": [
+    "GST_RATE_WRONG"
+   ],
+   "KN-008": [],
+   "KN-009": [
+    "UNAUTHORIZED_CHARGE"
+   ],
+   "KN-010": [],
+   "KN-011": [
+    "PRICE_MISMATCH"
+   ],
+   "KN-012": [],
+   "KN-013": [],
+   "KN-014": [],
+   "KN-015": [],
+   "KN-016": [
+    "DUPLICATE_INVOICE"
+   ],
+   "KN-017": [
+    "UNAUTHORIZED_CHARGE"
+   ],
+   "KN-018": [],
+   "KN-019": [
+    "TOTAL_MISMATCH"
+   ],
+   "KN-020": [
+    "WRONG_TAX_TYPE"
+   ],
+   "KN-021": [],
+   "KN-022": [],
+   "KN-023": [],
+   "KN-024": [],
+   "KN-025": [
+    "TOTAL_MISMATCH"
+   ],
+   "KN-026": [],
+   "KN-027": [],
+   "KN-028": [],
+   "KN-029": [],
+   "KN-030": [],
+   "KN-031": [],
+   "KN-032": [],
+   "KN-033": [
+    "TAX_MATH_ERROR"
+   ],
+   "KN-034": [],
+   "KN-035": [
+    "DUPLICATE_INVOICE"
+   ],
+   "KN-036": [
+    "WORDS_MISMATCH"
+   ],
+   "KN-037": [
+    "QTY_MISMATCH"
+   ],
+   "KN-038": [
+    "QTY_MISMATCH"
+   ],
+   "KN-039": [
+    "TAX_MATH_ERROR"
+   ],
+   "KN-040": [],
+   "KN-041": [],
+   "KN-042": [],
+   "KN-043": [],
+   "KN-044": [
+    "GST_RATE_WRONG"
+   ],
+   "KN-045": [
+    "INVALID_GSTIN"
+   ],
+   "KN-046": [],
+   "KN-047": [],
+   "KN-048": [
+    "INVALID_GSTIN"
+   ]
+  },
+  "scans": [
+   "KN-037",
+   "KN-011",
+   "KN-039",
+   "KN-017",
+   "KN-019"
+  ]
+ },
+ "northbeam": {
+  "invoices": [
+   {
+    "id": "NB-001",
+    "number": "S7/26-27/1000",
+    "supplierId": "S7",
+    "supplierName": "Cobalt Cloud Inc",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2400",
+    "date": "2026-09-01",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "hsn": "NA",
+      "description": "Cloud workspace seat (monthly)",
+      "qty": 257,
+      "unitPrice": 5256,
+      "gstRate": 0
+     },
+     {
+      "sku": "SUPPORT-PRO",
+      "hsn": "NA",
+      "description": "Pro support plan (monthly)",
+      "qty": 1,
+      "unitPrice": 120000,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 1470792,
+    "amountInWords": "US Dollars Fourteen Thousand Seven Hundred Seven and Ninety Two Cents Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   },
+   {
+    "id": "NB-002",
+    "number": "S8/26-27/1001",
+    "supplierId": "S8",
+    "supplierName": "Meridian Tools LLC",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2401",
+    "date": "2026-09-02",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "description": "Torque wrench kit",
+      "qty": 2,
+      "unitPrice": 18999,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [
+     {
+      "label": "Fuel surcharge",
+      "amount": 1260
+     }
+    ],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 39258,
+    "amountInWords": "US Dollars Three Hundred Ninety Two and Fifty Eight Cents Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   },
+   {
+    "id": "NB-003",
+    "number": "S7/26-27/1002",
+    "supplierId": "S7",
+    "supplierName": "Cobalt Cloud Inc",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2402",
+    "date": "2026-09-03",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "hsn": "NA",
+      "description": "Cloud workspace seat (monthly)",
+      "qty": 167,
+      "unitPrice": 4900,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 818300,
+    "amountInWords": "US Dollars Eight Thousand Four Hundred Thirty Three Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   },
+   {
+    "id": "NB-004",
+    "number": "S8/26-27/1003",
+    "supplierId": "S8",
+    "supplierName": "Meridian Tools LLC",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2403",
+    "date": "2026-09-04",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "description": "Torque wrench kit",
+      "qty": 5,
+      "unitPrice": 18999,
+      "gstRate": 0
+     },
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "description": "Digital caliper, 150 mm",
+      "qty": 53,
+      "unitPrice": 7450,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 489845,
+    "amountInWords": "US Dollars Four Thousand Eight Hundred Ninety Eight and Forty Five Cents Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   },
+   {
+    "id": "NB-005",
+    "number": "S7/26-27/1004",
+    "supplierId": "S7",
+    "supplierName": "Cobalt Cloud Inc",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2404",
+    "date": "2026-09-05",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "hsn": "NA",
+      "description": "Pro support plan (monthly)",
+      "qty": 2,
+      "unitPrice": 120000,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 240000,
+    "amountInWords": "US Dollars Two Thousand Four Hundred Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   },
+   {
+    "id": "NB-006",
+    "number": "S8/26-27/1005",
+    "supplierId": "S8",
+    "supplierName": "Meridian Tools LLC",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2405",
+    "date": "2026-09-06",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "description": "Torque wrench kit",
+      "qty": 20,
+      "unitPrice": 18999,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 379980,
+    "amountInWords": "US Dollars Three Thousand Seven Hundred Ninety Nine and Eighty Cents Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   },
+   {
+    "id": "NB-007",
+    "number": "S7/26-27/1006",
+    "supplierId": "S7",
+    "supplierName": "Cobalt Cloud Inc",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2406",
+    "date": "2026-09-07",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "hsn": "NA",
+      "description": "Pro support plan (monthly)",
+      "qty": 3,
+      "unitPrice": 120000,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 360000,
+    "amountInWords": "US Dollars Three Thousand Six Hundred Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   },
+   {
+    "id": "NB-008",
+    "number": "S8/26-27/1007",
+    "supplierId": "S8",
+    "supplierName": "Meridian Tools LLC",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2407",
+    "date": "2026-09-08",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "description": "Digital caliper, 150 mm",
+      "qty": 27,
+      "unitPrice": 7450,
+      "gstRate": 0
+     },
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "description": "Torque wrench kit",
+      "qty": 23,
+      "unitPrice": 18999,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 638127,
+    "amountInWords": "US Dollars Six Thousand Three Hundred Eighty One and Twenty Seven Cents Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   },
+   {
+    "id": "NB-009",
+    "number": "S7/26-27/1008",
+    "supplierId": "S7",
+    "supplierName": "Cobalt Cloud Inc",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2408",
+    "date": "2026-09-09",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "hsn": "NA",
+      "description": "Pro support plan (monthly)",
+      "qty": 1,
+      "unitPrice": 120000,
+      "gstRate": 0
+     },
+     {
+      "sku": "CLOUD-SEAT",
+      "hsn": "NA",
+      "description": "Cloud workspace seat (monthly)",
+      "qty": 53,
+      "unitPrice": 4900,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 379700,
+    "amountInWords": "US Dollars Three Thousand Seven Hundred Ninety Seven Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   },
+   {
+    "id": "NB-010",
+    "number": "S8/26-27/1009",
+    "supplierId": "S8",
+    "supplierName": "Meridian Tools LLC",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2409",
+    "date": "2026-09-10",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "description": "Torque wrench kit",
+      "qty": 6,
+      "unitPrice": 18999,
+      "gstRate": 0
+     },
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "description": "Digital caliper, 150 mm",
+      "qty": 33,
+      "unitPrice": 7450,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 359844,
+    "amountInWords": "US Dollars Three Thousand Five Hundred Ninety Eight and Forty Four Cents Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   },
+   {
+    "id": "NB-011",
+    "number": "S7/26-27/1010",
+    "supplierId": "S7",
+    "supplierName": "Cobalt Cloud Inc",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2410",
+    "date": "2026-09-11",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "hsn": "NA",
+      "description": "Pro support plan (monthly)",
+      "qty": 3,
+      "unitPrice": 120000,
+      "gstRate": 0
+     },
+     {
+      "sku": "CLOUD-SEAT",
+      "hsn": "NA",
+      "description": "Cloud workspace seat (monthly)",
+      "qty": 197,
+      "unitPrice": 4900,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 1325300,
+    "amountInWords": "US Dollars Thirteen Thousand Two Hundred Fifty Three Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   },
+   {
+    "id": "NB-012",
+    "number": "S8/26-27/1011",
+    "supplierId": "S8",
+    "supplierName": "Meridian Tools LLC",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2411",
+    "date": "2026-09-12",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "description": "Torque wrench kit",
+      "qty": 18,
+      "unitPrice": 18999,
+      "gstRate": 0
+     },
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "description": "Digital caliper, 150 mm",
+      "qty": 28,
+      "unitPrice": 7450,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 550582,
+    "amountInWords": "US Dollars Five Thousand Five Hundred Five and Eighty Two Cents Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   },
+   {
+    "id": "NB-013",
+    "number": "S7/26-27/1012",
+    "supplierId": "S7",
+    "supplierName": "Cobalt Cloud Inc",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2412",
+    "date": "2026-09-13",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "hsn": "NA",
+      "description": "Cloud workspace seat (monthly)",
+      "qty": 267,
+      "unitPrice": 4900,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 1308300,
+    "amountInWords": "US Dollars Thirteen Thousand Eighty Three Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   },
+   {
+    "id": "NB-014",
+    "number": "S8/26-27/1013",
+    "supplierId": "S8",
+    "supplierName": "Meridian Tools LLC",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2413",
+    "date": "2026-09-14",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "description": "Digital caliper, 150 mm",
+      "qty": 14,
+      "unitPrice": 7450,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 104300,
+    "amountInWords": "US Dollars One Thousand Forty Three Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   },
+   {
+    "id": "NB-015",
+    "number": "S7/26-27/1014",
+    "supplierId": "S7",
+    "supplierName": "Cobalt Cloud Inc",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2414",
+    "date": "2026-09-15",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "hsn": "NA",
+      "description": "Pro support plan (monthly)",
+      "qty": 2,
+      "unitPrice": 120000,
+      "gstRate": 0
+     },
+     {
+      "sku": "CLOUD-SEAT",
+      "hsn": "NA",
+      "description": "Cloud workspace seat (monthly)",
+      "qty": 164,
+      "unitPrice": 4900,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 1044700,
+    "amountInWords": "US Dollars Ten Thousand Four Hundred Forty Seven Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   },
+   {
+    "id": "NB-016",
+    "number": "S8/26-27/1013",
+    "supplierId": "S8",
+    "supplierName": "Meridian Tools LLC",
+    "supplierState": "US",
+    "buyerState": "US",
+    "buyerName": "Northbeam Analytics Inc",
+    "buyerGstin": "",
+    "poNumber": "PO/NB/2413",
+    "date": "2026-09-14",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "description": "Digital caliper, 150 mm",
+      "qty": 14,
+      "unitPrice": 7450,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxType": "NONE",
+    "taxTotal": 0,
+    "grandTotal": 104300,
+    "amountInWords": "US Dollars One Thousand Forty Three Only",
+    "supplierGstin": "",
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 0
+   }
+  ],
+  "answerKey": {
+   "NB-001": [
+    "PRICE_MISMATCH"
+   ],
+   "NB-002": [
+    "UNAUTHORIZED_CHARGE"
+   ],
+   "NB-003": [
+    "WORDS_MISMATCH"
+   ],
+   "NB-004": [],
+   "NB-005": [],
+   "NB-006": [],
+   "NB-007": [],
+   "NB-008": [],
+   "NB-009": [],
+   "NB-010": [],
+   "NB-011": [
+    "QTY_MISMATCH"
+   ],
+   "NB-012": [],
+   "NB-013": [],
+   "NB-014": [],
+   "NB-015": [
+    "TOTAL_MISMATCH"
+   ],
+   "NB-016": [
+    "DUPLICATE_INVOICE"
+   ]
+  },
+  "scans": [
+   "NB-011",
+   "NB-001"
+  ]
+ }
+}

@@ -1,0 +1,6128 @@
+{
+ "suppliers": [
+  {
+   "id": "S1",
+   "name": "Nimbus Components",
+   "state": "KA",
+   "currency": "INR",
+   "items": [
+    [
+     "SSD-512",
+     "8471",
+     345000
+    ],
+    [
+     "RAM-16",
+     "8471",
+     289900
+    ],
+    [
+     "PSU-650",
+     "8504",
+     512000
+    ]
+   ]
+  },
+  {
+   "id": "S2",
+   "name": "Saffron Spice Traders",
+   "state": "KL",
+   "currency": "INR",
+   "items": [
+    [
+     "PEP-BLK-25KG",
+     "0910",
+     1850000
+    ],
+    [
+     "CARD-GRN-10KG",
+     "0910",
+     2399900
+    ]
+   ]
+  },
+  {
+   "id": "S3",
+   "name": "Loomcraft Apparel",
+   "state": "TN",
+   "currency": "INR",
+   "items": [
+    [
+     "TEE-CTN-M",
+     "6109",
+     34900
+    ],
+    [
+     "TEE-CTN-L",
+     "6109",
+     36900
+    ]
+   ]
+  },
+  {
+   "id": "S4",
+   "name": "PolyPack Industries",
+   "state": "MH",
+   "currency": "INR",
+   "items": [
+    [
+     "MAILER-A4",
+     "3923",
+     1250
+    ],
+    [
+     "BUBBLE-ROLL",
+     "3923",
+     89000
+    ]
+   ]
+  },
+  {
+   "id": "S5",
+   "name": "Ledgerwise Consulting",
+   "state": "KA",
+   "currency": "INR",
+   "items": [
+    [
+     "AUDIT-HR",
+     "9983",
+     450000
+    ]
+   ]
+  },
+  {
+   "id": "S6",
+   "name": "Harborline Freight",
+   "state": "MH",
+   "currency": "INR",
+   "items": [
+    [
+     "FTL-BLR-MUM",
+     "9983",
+     4200000
+    ],
+    [
+     "LTL-PALLET",
+     "9983",
+     650000
+    ]
+   ]
+  },
+  {
+   "id": "S7",
+   "name": "Cobalt Cloud Inc",
+   "state": "US",
+   "currency": "USD",
+   "items": [
+    [
+     "CLOUD-SEAT",
+     "NA",
+     4900
+    ],
+    [
+     "SUPPORT-PRO",
+     "NA",
+     120000
+    ]
+   ]
+  },
+  {
+   "id": "S8",
+   "name": "Meridian Tools LLC",
+   "state": "US",
+   "currency": "USD",
+   "items": [
+    [
+     "TORQUE-KIT",
+     "NA",
+     18999
+    ],
+    [
+     "CALIPER-D",
+     "NA",
+     7450
+    ]
+   ]
+  }
+ ],
+ "trial": {
+  "invoices": [
+   {
+    "id": "T-001",
+    "number": "S1/26/1000",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-T001",
+    "date": "2026-09-01",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S1/26/1000   Date: 2026-09-01\nSupplier: Nimbus Components (state KA)   Bill to state: KA\nPO Ref: PO-T001   Currency: INR\nItems:\n- SSD-512 | HSN 8471 | Qty 6? | Rate 3,450.00 | GST 18%\nTax total: 3,726.00\nGrand total: 24,426.00"
+   },
+   {
+    "id": "T-002",
+    "number": "S2/26/1001",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-T002",
+    "date": "2026-09-02",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "hsn": "0910",
+      "qty": 41,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 4919795,
+    "grandTotal": 103315695
+   },
+   {
+    "id": "T-003",
+    "number": "S3/26/1002",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-T003",
+    "date": "2026-09-03",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "hsn": "6109",
+      "qty": 59,
+      "unitPrice": 34900,
+      "gstRate": 5
+     },
+     {
+      "sku": "TEE-CTN-L",
+      "hsn": "6109",
+      "qty": 3,
+      "unitPrice": 36900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 108490,
+    "grandTotal": 2278290
+   },
+   {
+    "id": "T-004",
+    "number": "S4/26/1003",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-T004",
+    "date": "2026-09-04",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "hsn": "3923",
+      "qty": 18,
+      "unitPrice": 89000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 288360,
+    "grandTotal": 1890360
+   },
+   {
+    "id": "T-005",
+    "number": "S5/26/1004",
+    "supplierId": "S5",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-T005",
+    "date": "2026-09-05",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "hsn": "9983",
+      "qty": 33,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 2673000,
+    "grandTotal": 17523000
+   },
+   {
+    "id": "T-006",
+    "number": "S6/26/1005",
+    "supplierId": "S6",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-T006",
+    "date": "2026-09-06",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "qty": 58,
+      "unitPrice": 650000,
+      "gstRate": 18
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "qty": 17,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 19638000,
+    "grandTotal": 128738000
+   },
+   {
+    "id": "T-007",
+    "number": "S7/26/1006",
+    "supplierId": "S7",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-T007",
+    "date": "2026-09-07",
+    "currency": "USD",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S7/26/1006   Date: 2026-09-07\nSupplier: Cobalt Cloud Inc (state US)   Bill to state: KA\nPO Ref: PO-T007   Currency: USD\nItems:\n- CLOUD-SEAT | HSN NA | Qty 57 | Rate 49.00 | GST 0%\n- SUPPORT-PRO | HSN NA | Qty 42 | Rate 1,200.00 | GST 0%\nTax total: 798.90\nGrand total: 53,991.90"
+   },
+   {
+    "id": "T-008",
+    "number": "S8/26/1007",
+    "supplierId": "S8",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-T008",
+    "date": "2026-09-08",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "qty": 20,
+      "unitPrice": 18999,
+      "gstRate": 0
+     },
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "qty": 31,
+      "unitPrice": 7450,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 610930
+   },
+   {
+    "id": "T-009",
+    "number": "S1/26/1008",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-T009",
+    "date": "2026-09-09",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "qty": 34,
+      "unitPrice": 345000,
+      "gstRate": 18
+     },
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "qty": 34,
+      "unitPrice": 289900,
+      "gstRate": 18
+     },
+     {
+      "sku": "PSU-650",
+      "hsn": "8504",
+      "qty": 59,
+      "unitPrice": 512000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 9323028,
+    "grandTotal": 61117628
+   },
+   {
+    "id": "T-010",
+    "number": "S2/26/1009",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-T010",
+    "date": "2026-09-10",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "hsn": "0910",
+      "qty": 20,
+      "unitPrice": 1850000,
+      "gstRate": 5
+     },
+     {
+      "sku": "CARD-GRN-10KG",
+      "hsn": "0910",
+      "qty": 39,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 6529805,
+    "grandTotal": 137125905
+   },
+   {
+    "id": "T-011",
+    "number": "S3/26/1010",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-T011",
+    "date": "2026-09-11",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "hsn": "6109",
+      "qty": 24,
+      "unitPrice": 34900,
+      "gstRate": 5
+     },
+     {
+      "sku": "TEE-CTN-L",
+      "hsn": "6109",
+      "qty": 53,
+      "unitPrice": 36900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 139665,
+    "grandTotal": 2932965
+   },
+   {
+    "id": "T-012",
+    "number": "S4/26/1011",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-T012",
+    "date": "2026-09-12",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "hsn": "3923",
+      "qty": 26,
+      "unitPrice": 89000,
+      "gstRate": 18
+     },
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "qty": 22,
+      "unitPrice": 1250,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [
+     {
+      "label": "Handling fee",
+      "amount": 47330
+     }
+    ],
+    "taxTotal": 421470,
+    "grandTotal": 2810300
+   },
+   {
+    "id": "T-013",
+    "number": "S5/26/1012",
+    "supplierId": "S5",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-T013",
+    "date": "2026-09-13",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "hsn": "9983",
+      "qty": 38,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 3078000,
+    "grandTotal": 20178000
+   },
+   {
+    "id": "T-014",
+    "number": "S6/26/1013",
+    "supplierId": "S6",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-T014",
+    "date": "2026-09-14",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "qty": 10,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     },
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "qty": 18,
+      "unitPrice": 650000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 9666000,
+    "grandTotal": 63366000
+   },
+   {
+    "id": "T-015",
+    "number": "S7/26/1014",
+    "supplierId": "S7",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-T015",
+    "date": "2026-09-15",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "hsn": "NA",
+      "qty": 18,
+      "unitPrice": 4900,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [
+     {
+      "label": "Handling fee",
+      "amount": 2264
+     }
+    ],
+    "taxTotal": 0,
+    "grandTotal": 90464
+   },
+   {
+    "id": "T-016",
+    "number": "S8/26/1015",
+    "supplierId": "S8",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-T016",
+    "date": "2026-09-16",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "qty": 44,
+      "unitPrice": 18999,
+      "gstRate": 0
+     },
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "qty": 12,
+      "unitPrice": 7450,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 969256
+   },
+   {
+    "id": "T-017",
+    "number": "S1/26/1016",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-T017",
+    "date": "2026-09-17",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "qty": 6,
+      "unitPrice": 345000,
+      "gstRate": 18
+     },
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "qty": 31,
+      "unitPrice": 289900,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 1990242,
+    "grandTotal": 13047142
+   },
+   {
+    "id": "T-018",
+    "number": "S2/26/1009",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-T010",
+    "date": "2026-09-10",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "hsn": "0910",
+      "qty": 20,
+      "unitPrice": 1850000,
+      "gstRate": 5
+     },
+     {
+      "sku": "CARD-GRN-10KG",
+      "hsn": "0910",
+      "qty": 39,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 6529805,
+    "grandTotal": 137125905
+   },
+   {
+    "id": "T-019",
+    "number": "S3/26/1018",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-T019",
+    "date": "2026-09-19",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "hsn": "6109",
+      "qty": 26,
+      "unitPrice": 34900,
+      "gstRate": 5
+     },
+     {
+      "sku": "TEE-CTN-L",
+      "hsn": "6109",
+      "qty": 28,
+      "unitPrice": 36900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 97030,
+    "grandTotal": 2037630
+   },
+   {
+    "id": "T-020",
+    "number": "S4/26/1019",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-T020",
+    "date": "2026-09-20",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "qty": 32,
+      "unitPrice": 1250,
+      "gstRate": 18
+     },
+     {
+      "sku": "BUBBLE-ROLL",
+      "hsn": "3923",
+      "qty": 4,
+      "unitPrice": 89000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 71280,
+    "grandTotal": 467280
+   },
+   {
+    "id": "T-021",
+    "number": "S5/26/1012",
+    "supplierId": "S5",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-T013",
+    "date": "2026-09-13",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "hsn": "9983",
+      "qty": 38,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 3078000,
+    "grandTotal": 20178000
+   },
+   {
+    "id": "T-022",
+    "number": "S6/26/1021",
+    "supplierId": "S6",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-T022",
+    "date": "2026-09-22",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "qty": 9,
+      "unitPrice": 650000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 1053000,
+    "grandTotal": 6903000
+   },
+   {
+    "id": "T-023",
+    "number": "S7/26/1022",
+    "supplierId": "S7",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-T023",
+    "date": "2026-09-23",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "hsn": "NA",
+      "qty": 51,
+      "unitPrice": 120000,
+      "gstRate": 0
+     },
+     {
+      "sku": "CLOUD-SEAT",
+      "hsn": "NA",
+      "qty": 42,
+      "unitPrice": 4900,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [
+     {
+      "label": "Fuel surcharge",
+      "amount": 127016
+     }
+    ],
+    "taxTotal": 0,
+    "grandTotal": 6452816
+   },
+   {
+    "id": "T-024",
+    "number": "S8/26/1023",
+    "supplierId": "S8",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-T024",
+    "date": "2026-09-24",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "qty": 43,
+      "unitPrice": 7450,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 320350
+   },
+   {
+    "id": "T-025",
+    "number": "S1/26/1024",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-T025",
+    "date": "2026-09-25",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "qty": 54,
+      "unitPrice": 289900,
+      "gstRate": 18
+     },
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "qty": 22,
+      "unitPrice": 345000,
+      "gstRate": 18
+     },
+     {
+      "sku": "PSU-650",
+      "hsn": "8504",
+      "qty": 7,
+      "unitPrice": 512000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 4829148,
+    "grandTotal": 31657748
+   },
+   {
+    "id": "T-026",
+    "number": "S2/26/1025",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-T026",
+    "date": "2026-09-26",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "hsn": "0910",
+      "qty": 30,
+      "unitPrice": 1931215,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 2896823,
+    "grandTotal": 60833273
+   },
+   {
+    "id": "T-027",
+    "number": "S3/26/1026",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-T027",
+    "date": "2026-09-27",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "hsn": "6109",
+      "qty": 32,
+      "unitPrice": 36900,
+      "gstRate": 5
+     },
+     {
+      "sku": "TEE-CTN-M",
+      "hsn": "6109",
+      "qty": 30,
+      "unitPrice": 34900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 111390,
+    "grandTotal": 2339190
+   },
+   {
+    "id": "T-028",
+    "number": "S4/26/1027",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-T028",
+    "date": "2026-09-28",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "qty": 48,
+      "unitPrice": 1250,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [
+     {
+      "label": "Handling fee",
+      "amount": 1700
+     }
+    ],
+    "taxTotal": 10800,
+    "grandTotal": 72500
+   },
+   {
+    "id": "T-029",
+    "number": "S5/26/1028",
+    "supplierId": "S5",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-T029",
+    "date": "2026-09-29",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "hsn": "9983",
+      "qty": 8,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 648000,
+    "grandTotal": 4248000
+   },
+   {
+    "id": "T-030",
+    "number": "S6/26/1029",
+    "supplierId": "S6",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-T030",
+    "date": "2026-09-30",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "qty": 22,
+      "unitPrice": 650000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 2574000,
+    "grandTotal": 16874000
+   },
+   {
+    "id": "T-031",
+    "number": "S7/26/1030",
+    "supplierId": "S7",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-T031",
+    "date": "2026-10-01",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "hsn": "NA",
+      "qty": 60,
+      "unitPrice": 120000,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 108100,
+    "grandTotal": 7308100
+   },
+   {
+    "id": "T-032",
+    "number": "S8/26/1031",
+    "supplierId": "S8",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-T032",
+    "date": "2026-10-02",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "qty": 22,
+      "unitPrice": 18999,
+      "gstRate": 0
+     },
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "qty": 40,
+      "unitPrice": 7450,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 715978
+   },
+   {
+    "id": "T-033",
+    "number": "S1/26/1032",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-T033",
+    "date": "2026-10-03",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "qty": 14,
+      "unitPrice": 289900,
+      "gstRate": 18
+     },
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "qty": 48,
+      "unitPrice": 345000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 3711348,
+    "grandTotal": 24360148
+   },
+   {
+    "id": "T-034",
+    "number": "S2/26/1033",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-T034",
+    "date": "2026-10-04",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "hsn": "0910",
+      "qty": 47,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 5639765,
+    "grandTotal": 118435065
+   },
+   {
+    "id": "T-035",
+    "number": "S3/26/1034",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-T035",
+    "date": "2026-10-05",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S3/26/1034   Date: 2026-10-05\nSupplier: Loomcraft Apparel (state TN)   Bill to state: KA\nPO Ref: PO-T035   Currency: INR\nItems:\n- TEE-CTN-L | HSN 6109 | Qty 48 | Rate 369.00 | GST 12%\n- TEE-CTN-M | HSN 6109 | Qty 31 | Rate 349.00 | GST 5%\nTax total: 2,666.39\nGrand total: 31,197.39"
+   },
+   {
+    "id": "T-036",
+    "number": "S4/26/1035",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-T036",
+    "date": "2026-10-06",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S4/26/1035   Date: 2026-10-06\nSupplier: PolyPack Industries (state MH)   Bill to state: KA\nPO Ref: PO-T036   Currency: INR\nItems:\n- MAILER-A4 | HSN 3923 | Qty 1? | Rate 12.50 | GST 18%\nTax total: 22.50\nGrand total: 147.50"
+   },
+   {
+    "id": "T-037",
+    "number": "S5/26/1036",
+    "supplierId": "S5",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-T037",
+    "date": "2026-10-07",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "hsn": "9983",
+      "qty": 14,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 1134000,
+    "grandTotal": 7434000
+   },
+   {
+    "id": "T-038",
+    "number": "S6/26/1037",
+    "supplierId": "S6",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-T038",
+    "date": "2026-10-08",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S6/26/1037   Date: 2026-10-08\nSupplier: Harborline Freight (state MH)   Bill to state: KA\nPO Ref: PO-T038   Currency: INR\nItems:\n- FTL-BLR-MUM | HSN 9983 | Qty 9 | Rate 44,646.00 | GST 18%\nTax total: 72,326.52\nGrand total: 4,74,140.52"
+   },
+   {
+    "id": "T-039",
+    "number": "S7/26/1038",
+    "supplierId": "S7",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-T039",
+    "date": "2026-10-09",
+    "currency": "USD",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S7/26/1038   Date: 2026-10-09\nSupplier: Cobalt Cloud Inc (state US)   Bill to state: KA\nPO Ref: PO-T039   Currency: USD\nItems:\n- CLOUD-SEAT | HSN NA | Qty 14 | Rate 49.00 | GST 0%\n- SUPPORT-PRO | HSN NA | Qty 56 | Rate 1,200.00 | GST 0%\nTax total: 1,019.29\nGrand total: 68,905.29"
+   },
+   {
+    "id": "T-040",
+    "number": "S8/26/1039",
+    "supplierId": "S8",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-T040",
+    "date": "2026-10-10",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "qty": 4,
+      "unitPrice": 18999,
+      "gstRate": 0
+     },
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "qty": 58,
+      "unitPrice": 7450,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 508096
+   },
+   {
+    "id": "T-041",
+    "number": "S1/26/1040",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-T041",
+    "date": "2026-10-11",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PSU-650",
+      "hsn": "8504",
+      "qty": 46,
+      "unitPrice": 512000,
+      "gstRate": 18
+     },
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "qty": 16,
+      "unitPrice": 345000,
+      "gstRate": 18
+     },
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "qty": 52,
+      "unitPrice": 289900,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 7946424,
+    "grandTotal": 52093224
+   },
+   {
+    "id": "T-042",
+    "number": "S2/26/1033",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-T034",
+    "date": "2026-10-04",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "hsn": "0910",
+      "qty": 47,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 5639765,
+    "grandTotal": 118435065
+   },
+   {
+    "id": "T-043",
+    "number": "S3/26/1042",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-T043",
+    "date": "2026-10-13",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "hsn": "6109",
+      "qty": 39,
+      "unitPrice": 36900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 71955,
+    "grandTotal": 1511055
+   },
+   {
+    "id": "T-044",
+    "number": "S4/26/1043",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-T044",
+    "date": "2026-10-14",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "qty": 52,
+      "unitPrice": 1250,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 11700,
+    "grandTotal": 76700
+   },
+   {
+    "id": "T-045",
+    "number": "S5/26/1044",
+    "supplierId": "S5",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-T045",
+    "date": "2026-10-15",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "hsn": "9983",
+      "qty": 10,
+      "unitPrice": 450000,
+      "gstRate": 28
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 1260000,
+    "grandTotal": 5760000
+   },
+   {
+    "id": "T-046",
+    "number": "S6/26/1045",
+    "supplierId": "S6",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-T046",
+    "date": "2026-10-16",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "qty": 29,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 21924000,
+    "grandTotal": 143724000
+   },
+   {
+    "id": "T-047",
+    "number": "S7/26/1046",
+    "supplierId": "S7",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-T047",
+    "date": "2026-10-17",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "hsn": "NA",
+      "qty": 30,
+      "unitPrice": 4900,
+      "gstRate": 0
+     },
+     {
+      "sku": "SUPPORT-PRO",
+      "hsn": "NA",
+      "qty": 41,
+      "unitPrice": 120000,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 5067000
+   },
+   {
+    "id": "T-048",
+    "number": "S8/26/1047",
+    "supplierId": "S8",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-T048",
+    "date": "2026-10-18",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "qty": 50,
+      "unitPrice": 7450,
+      "gstRate": 0
+     },
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "qty": 22,
+      "unitPrice": 18999,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 790478
+   },
+   {
+    "id": "T-049",
+    "number": "S1/26/1048",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-T049",
+    "date": "2026-10-19",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "qty": 30,
+      "unitPrice": 289900,
+      "gstRate": 18
+     },
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "qty": 16,
+      "unitPrice": 345000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 2559060,
+    "grandTotal": 16776060
+   },
+   {
+    "id": "T-050",
+    "number": "S2/26/1049",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-T050",
+    "date": "2026-10-20",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "hsn": "0910",
+      "qty": 52,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 6239740,
+    "grandTotal": 131034540
+   },
+   {
+    "id": "T-051",
+    "number": "S3/26/1050",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-T051",
+    "date": "2026-10-21",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S3/26/1050   Date: 2026-10-21\nSupplier: Loomcraft Apparel (state TN)   Bill to state: KA\nPO Ref: PO-T051   Currency: INR\nItems:\n- TEE-CTN-L | HSN 6109 | Qty 16 | Rate 389.37 | GST 5%\nTax total: 311.50\nGrand total: 6,541.42"
+   },
+   {
+    "id": "T-052",
+    "number": "S4/26/1051",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-T052",
+    "date": "2026-10-22",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "hsn": "3923",
+      "qty": 5,
+      "unitPrice": 89000,
+      "gstRate": 18
+     },
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "qty": 55,
+      "unitPrice": 1250,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 92475,
+    "grandTotal": 606225
+   },
+   {
+    "id": "T-053",
+    "number": "S5/26/1052",
+    "supplierId": "S5",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-T053",
+    "date": "2026-10-23",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S5/26/1052   Date: 2026-10-23\nSupplier: Ledgerwise Consulting (state KA)   Bill to state: KA\nPO Ref: PO-T053   Currency: INR\nItems:\n- AUDIT-HR | HSN 9983 | Qty 40 | Rate 4,817.25 | GST 18%\nTax total: 34,684.20\nGrand total: 2,27,374.20"
+   },
+   {
+    "id": "T-054",
+    "number": "S6/26/1053",
+    "supplierId": "S6",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-T054",
+    "date": "2026-10-24",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "qty": 34,
+      "unitPrice": 650000,
+      "gstRate": 18
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "qty": 30,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 26658000,
+    "grandTotal": 174758000
+   },
+   {
+    "id": "T-055",
+    "number": "S7/26/1054",
+    "supplierId": "S7",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-T055",
+    "date": "2026-10-25",
+    "currency": "USD",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S7/26/1054   Date: 2026-10-25\nSupplier: Cobalt Cloud Inc (state US)   Bill to state: KA\nPO Ref: PO-T055   Currency: USD\nItems:\n- CLOUD-SEAT | HSN NA | Qty 2? | Rate 49.00 | GST 0%\nTax total: 0.00\nGrand total: 1,372.00"
+   },
+   {
+    "id": "T-056",
+    "number": "S8/26/1055",
+    "supplierId": "S8",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-T056",
+    "date": "2026-10-26",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "qty": 2,
+      "unitPrice": 7450,
+      "gstRate": 0
+     },
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "qty": 42,
+      "unitPrice": 18999,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 812858
+   },
+   {
+    "id": "T-057",
+    "number": "S1/26/1056",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-T057",
+    "date": "2026-10-27",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "qty": 38,
+      "unitPrice": 289900,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 1982916,
+    "grandTotal": 12999116
+   },
+   {
+    "id": "T-058",
+    "number": "S2/26/1057",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-T058",
+    "date": "2026-10-28",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "hsn": "0910",
+      "qty": 4,
+      "unitPrice": 1850000,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 370000,
+    "grandTotal": 7802700
+   },
+   {
+    "id": "T-059",
+    "number": "S3/26/1058",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-T059",
+    "date": "2026-10-29",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S3/26/1058   Date: 2026-10-29\nSupplier: Loomcraft Apparel (state TN)   Bill to state: KA\nPO Ref: PO-T059   Currency: INR\nItems:\n- TEE-CTN-L | HSN 6109 | Qty 29 | Rate 369.00 | GST 12%\nTax total: 1,284.12\nGrand total: 11,985.12"
+   },
+   {
+    "id": "T-060",
+    "number": "S4/26/1059",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-T060",
+    "date": "2026-10-30",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "qty": 44,
+      "unitPrice": 1250,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 9900,
+    "grandTotal": 64900
+   }
+  ],
+  "pos": [
+   {
+    "number": "PO-T001",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "qty": 6,
+      "unitPrice": 345000
+     }
+    ]
+   },
+   {
+    "number": "PO-T002",
+    "supplierId": "S2",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qty": 41,
+      "unitPrice": 2399900
+     }
+    ]
+   },
+   {
+    "number": "PO-T003",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "qty": 59,
+      "unitPrice": 34900
+     },
+     {
+      "sku": "TEE-CTN-L",
+      "qty": 3,
+      "unitPrice": 36900
+     }
+    ]
+   },
+   {
+    "number": "PO-T004",
+    "supplierId": "S4",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qty": 18,
+      "unitPrice": 89000
+     }
+    ]
+   },
+   {
+    "number": "PO-T005",
+    "supplierId": "S5",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qty": 33,
+      "unitPrice": 450000
+     }
+    ]
+   },
+   {
+    "number": "PO-T006",
+    "supplierId": "S6",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "qty": 58,
+      "unitPrice": 650000
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "qty": 17,
+      "unitPrice": 4200000
+     }
+    ]
+   },
+   {
+    "number": "PO-T007",
+    "supplierId": "S7",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "qty": 57,
+      "unitPrice": 4900
+     },
+     {
+      "sku": "SUPPORT-PRO",
+      "qty": 42,
+      "unitPrice": 120000
+     }
+    ]
+   },
+   {
+    "number": "PO-T008",
+    "supplierId": "S8",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "qty": 20,
+      "unitPrice": 18999
+     },
+     {
+      "sku": "CALIPER-D",
+      "qty": 31,
+      "unitPrice": 7450
+     }
+    ]
+   },
+   {
+    "number": "PO-T009",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "qty": 34,
+      "unitPrice": 345000
+     },
+     {
+      "sku": "RAM-16",
+      "qty": 34,
+      "unitPrice": 289900
+     },
+     {
+      "sku": "PSU-650",
+      "qty": 59,
+      "unitPrice": 512000
+     }
+    ]
+   },
+   {
+    "number": "PO-T010",
+    "supplierId": "S2",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "qty": 20,
+      "unitPrice": 1850000
+     },
+     {
+      "sku": "CARD-GRN-10KG",
+      "qty": 39,
+      "unitPrice": 2399900
+     }
+    ]
+   },
+   {
+    "number": "PO-T011",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "qty": 24,
+      "unitPrice": 34900
+     },
+     {
+      "sku": "TEE-CTN-L",
+      "qty": 53,
+      "unitPrice": 36900
+     }
+    ]
+   },
+   {
+    "number": "PO-T012",
+    "supplierId": "S4",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qty": 26,
+      "unitPrice": 89000
+     },
+     {
+      "sku": "MAILER-A4",
+      "qty": 22,
+      "unitPrice": 1250
+     }
+    ]
+   },
+   {
+    "number": "PO-T013",
+    "supplierId": "S5",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qty": 38,
+      "unitPrice": 450000
+     }
+    ]
+   },
+   {
+    "number": "PO-T014",
+    "supplierId": "S6",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "qty": 10,
+      "unitPrice": 4200000
+     },
+     {
+      "sku": "LTL-PALLET",
+      "qty": 18,
+      "unitPrice": 650000
+     }
+    ]
+   },
+   {
+    "number": "PO-T015",
+    "supplierId": "S7",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "qty": 18,
+      "unitPrice": 4900
+     }
+    ]
+   },
+   {
+    "number": "PO-T016",
+    "supplierId": "S8",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "qty": 44,
+      "unitPrice": 18999
+     },
+     {
+      "sku": "CALIPER-D",
+      "qty": 12,
+      "unitPrice": 7450
+     }
+    ]
+   },
+   {
+    "number": "PO-T017",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "qty": 6,
+      "unitPrice": 345000
+     },
+     {
+      "sku": "RAM-16",
+      "qty": 31,
+      "unitPrice": 289900
+     }
+    ]
+   },
+   {
+    "number": "PO-T019",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "qty": 26,
+      "unitPrice": 34900
+     },
+     {
+      "sku": "TEE-CTN-L",
+      "qty": 28,
+      "unitPrice": 36900
+     }
+    ]
+   },
+   {
+    "number": "PO-T020",
+    "supplierId": "S4",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "qty": 32,
+      "unitPrice": 1250
+     },
+     {
+      "sku": "BUBBLE-ROLL",
+      "qty": 4,
+      "unitPrice": 89000
+     }
+    ]
+   },
+   {
+    "number": "PO-T022",
+    "supplierId": "S6",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "qty": 9,
+      "unitPrice": 650000
+     }
+    ]
+   },
+   {
+    "number": "PO-T023",
+    "supplierId": "S7",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qty": 51,
+      "unitPrice": 120000
+     },
+     {
+      "sku": "CLOUD-SEAT",
+      "qty": 42,
+      "unitPrice": 4900
+     }
+    ]
+   },
+   {
+    "number": "PO-T024",
+    "supplierId": "S8",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "qty": 43,
+      "unitPrice": 7450
+     }
+    ]
+   },
+   {
+    "number": "PO-T025",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "qty": 54,
+      "unitPrice": 289900
+     },
+     {
+      "sku": "SSD-512",
+      "qty": 22,
+      "unitPrice": 345000
+     },
+     {
+      "sku": "PSU-650",
+      "qty": 7,
+      "unitPrice": 512000
+     }
+    ]
+   },
+   {
+    "number": "PO-T026",
+    "supplierId": "S2",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "qty": 30,
+      "unitPrice": 1850000
+     }
+    ]
+   },
+   {
+    "number": "PO-T027",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qty": 32,
+      "unitPrice": 36900
+     },
+     {
+      "sku": "TEE-CTN-M",
+      "qty": 30,
+      "unitPrice": 34900
+     }
+    ]
+   },
+   {
+    "number": "PO-T028",
+    "supplierId": "S4",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "qty": 48,
+      "unitPrice": 1250
+     }
+    ]
+   },
+   {
+    "number": "PO-T029",
+    "supplierId": "S5",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qty": 8,
+      "unitPrice": 450000
+     }
+    ]
+   },
+   {
+    "number": "PO-T030",
+    "supplierId": "S6",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "qty": 22,
+      "unitPrice": 650000
+     }
+    ]
+   },
+   {
+    "number": "PO-T031",
+    "supplierId": "S7",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qty": 60,
+      "unitPrice": 120000
+     }
+    ]
+   },
+   {
+    "number": "PO-T032",
+    "supplierId": "S8",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "qty": 22,
+      "unitPrice": 18999
+     },
+     {
+      "sku": "CALIPER-D",
+      "qty": 40,
+      "unitPrice": 7450
+     }
+    ]
+   },
+   {
+    "number": "PO-T033",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "qty": 14,
+      "unitPrice": 289900
+     },
+     {
+      "sku": "SSD-512",
+      "qty": 48,
+      "unitPrice": 345000
+     }
+    ]
+   },
+   {
+    "number": "PO-T034",
+    "supplierId": "S2",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qty": 47,
+      "unitPrice": 2399900
+     }
+    ]
+   },
+   {
+    "number": "PO-T035",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qty": 48,
+      "unitPrice": 36900
+     },
+     {
+      "sku": "TEE-CTN-M",
+      "qty": 31,
+      "unitPrice": 34900
+     }
+    ]
+   },
+   {
+    "number": "PO-T036",
+    "supplierId": "S4",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "qty": 10,
+      "unitPrice": 1250
+     }
+    ]
+   },
+   {
+    "number": "PO-T037",
+    "supplierId": "S5",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qty": 14,
+      "unitPrice": 450000
+     }
+    ]
+   },
+   {
+    "number": "PO-T038",
+    "supplierId": "S6",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "qty": 9,
+      "unitPrice": 4200000
+     }
+    ]
+   },
+   {
+    "number": "PO-T039",
+    "supplierId": "S7",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "qty": 14,
+      "unitPrice": 4900
+     },
+     {
+      "sku": "SUPPORT-PRO",
+      "qty": 56,
+      "unitPrice": 120000
+     }
+    ]
+   },
+   {
+    "number": "PO-T040",
+    "supplierId": "S8",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "qty": 4,
+      "unitPrice": 18999
+     },
+     {
+      "sku": "CALIPER-D",
+      "qty": 58,
+      "unitPrice": 7450
+     }
+    ]
+   },
+   {
+    "number": "PO-T041",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "PSU-650",
+      "qty": 46,
+      "unitPrice": 512000
+     },
+     {
+      "sku": "SSD-512",
+      "qty": 16,
+      "unitPrice": 345000
+     },
+     {
+      "sku": "RAM-16",
+      "qty": 52,
+      "unitPrice": 289900
+     }
+    ]
+   },
+   {
+    "number": "PO-T043",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qty": 39,
+      "unitPrice": 36900
+     }
+    ]
+   },
+   {
+    "number": "PO-T044",
+    "supplierId": "S4",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "qty": 52,
+      "unitPrice": 1250
+     }
+    ]
+   },
+   {
+    "number": "PO-T045",
+    "supplierId": "S5",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qty": 10,
+      "unitPrice": 450000
+     }
+    ]
+   },
+   {
+    "number": "PO-T046",
+    "supplierId": "S6",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "qty": 29,
+      "unitPrice": 4200000
+     }
+    ]
+   },
+   {
+    "number": "PO-T047",
+    "supplierId": "S7",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "qty": 30,
+      "unitPrice": 4900
+     },
+     {
+      "sku": "SUPPORT-PRO",
+      "qty": 41,
+      "unitPrice": 120000
+     }
+    ]
+   },
+   {
+    "number": "PO-T048",
+    "supplierId": "S8",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "qty": 50,
+      "unitPrice": 7450
+     },
+     {
+      "sku": "TORQUE-KIT",
+      "qty": 22,
+      "unitPrice": 18999
+     }
+    ]
+   },
+   {
+    "number": "PO-T049",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "qty": 30,
+      "unitPrice": 289900
+     },
+     {
+      "sku": "SSD-512",
+      "qty": 16,
+      "unitPrice": 345000
+     }
+    ]
+   },
+   {
+    "number": "PO-T050",
+    "supplierId": "S2",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qty": 52,
+      "unitPrice": 2399900
+     }
+    ]
+   },
+   {
+    "number": "PO-T051",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qty": 16,
+      "unitPrice": 36900
+     }
+    ]
+   },
+   {
+    "number": "PO-T052",
+    "supplierId": "S4",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qty": 5,
+      "unitPrice": 89000
+     },
+     {
+      "sku": "MAILER-A4",
+      "qty": 55,
+      "unitPrice": 1250
+     }
+    ]
+   },
+   {
+    "number": "PO-T053",
+    "supplierId": "S5",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qty": 40,
+      "unitPrice": 450000
+     }
+    ]
+   },
+   {
+    "number": "PO-T054",
+    "supplierId": "S6",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "qty": 34,
+      "unitPrice": 650000
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "qty": 30,
+      "unitPrice": 4200000
+     }
+    ]
+   },
+   {
+    "number": "PO-T055",
+    "supplierId": "S7",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "qty": 28,
+      "unitPrice": 4900
+     }
+    ]
+   },
+   {
+    "number": "PO-T056",
+    "supplierId": "S8",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "qty": 2,
+      "unitPrice": 7450
+     },
+     {
+      "sku": "TORQUE-KIT",
+      "qty": 42,
+      "unitPrice": 18999
+     }
+    ]
+   },
+   {
+    "number": "PO-T057",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "qty": 38,
+      "unitPrice": 289900
+     }
+    ]
+   },
+   {
+    "number": "PO-T058",
+    "supplierId": "S2",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "qty": 4,
+      "unitPrice": 1850000
+     }
+    ]
+   },
+   {
+    "number": "PO-T059",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qty": 29,
+      "unitPrice": 36900
+     }
+    ]
+   },
+   {
+    "number": "PO-T060",
+    "supplierId": "S4",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "qty": 44,
+      "unitPrice": 1250
+     }
+    ]
+   }
+  ],
+  "grns": [
+   {
+    "poNumber": "PO-T001",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "qtyReceived": 5
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T002",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qtyReceived": 41
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T003",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "qtyReceived": 59
+     },
+     {
+      "sku": "TEE-CTN-L",
+      "qtyReceived": 3
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T004",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qtyReceived": 18
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T005",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qtyReceived": 33
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T006",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "qtyReceived": 58
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "qtyReceived": 17
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T007",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "qtyReceived": 57
+     },
+     {
+      "sku": "SUPPORT-PRO",
+      "qtyReceived": 42
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T008",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "qtyReceived": 20
+     },
+     {
+      "sku": "CALIPER-D",
+      "qtyReceived": 31
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T009",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "qtyReceived": 34
+     },
+     {
+      "sku": "RAM-16",
+      "qtyReceived": 34
+     },
+     {
+      "sku": "PSU-650",
+      "qtyReceived": 59
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T010",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "qtyReceived": 20
+     },
+     {
+      "sku": "CARD-GRN-10KG",
+      "qtyReceived": 39
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T011",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "qtyReceived": 24
+     },
+     {
+      "sku": "TEE-CTN-L",
+      "qtyReceived": 53
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T012",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qtyReceived": 26
+     },
+     {
+      "sku": "MAILER-A4",
+      "qtyReceived": 22
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T013",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qtyReceived": 38
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T014",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "qtyReceived": 10
+     },
+     {
+      "sku": "LTL-PALLET",
+      "qtyReceived": 18
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T015",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "qtyReceived": 18
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T016",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "qtyReceived": 44
+     },
+     {
+      "sku": "CALIPER-D",
+      "qtyReceived": 12
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T017",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "qtyReceived": 6
+     },
+     {
+      "sku": "RAM-16",
+      "qtyReceived": 31
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T019",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "qtyReceived": 26
+     },
+     {
+      "sku": "TEE-CTN-L",
+      "qtyReceived": 28
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T020",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "qtyReceived": 32
+     },
+     {
+      "sku": "BUBBLE-ROLL",
+      "qtyReceived": 4
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T022",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "qtyReceived": 9
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T023",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qtyReceived": 51
+     },
+     {
+      "sku": "CLOUD-SEAT",
+      "qtyReceived": 42
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T024",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "qtyReceived": 43
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T025",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "qtyReceived": 54
+     },
+     {
+      "sku": "SSD-512",
+      "qtyReceived": 22
+     },
+     {
+      "sku": "PSU-650",
+      "qtyReceived": 7
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T026",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "qtyReceived": 30
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T027",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qtyReceived": 32
+     },
+     {
+      "sku": "TEE-CTN-M",
+      "qtyReceived": 30
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T028",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "qtyReceived": 48
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T029",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qtyReceived": 8
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T030",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "qtyReceived": 22
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T031",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qtyReceived": 60
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T032",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "qtyReceived": 22
+     },
+     {
+      "sku": "CALIPER-D",
+      "qtyReceived": 40
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T033",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "qtyReceived": 14
+     },
+     {
+      "sku": "SSD-512",
+      "qtyReceived": 48
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T034",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qtyReceived": 47
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T035",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qtyReceived": 48
+     },
+     {
+      "sku": "TEE-CTN-M",
+      "qtyReceived": 31
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T036",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "qtyReceived": 8
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T037",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qtyReceived": 14
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T038",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "qtyReceived": 9
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T039",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "qtyReceived": 14
+     },
+     {
+      "sku": "SUPPORT-PRO",
+      "qtyReceived": 56
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T040",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "qtyReceived": 4
+     },
+     {
+      "sku": "CALIPER-D",
+      "qtyReceived": 58
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T041",
+    "lines": [
+     {
+      "sku": "PSU-650",
+      "qtyReceived": 46
+     },
+     {
+      "sku": "SSD-512",
+      "qtyReceived": 16
+     },
+     {
+      "sku": "RAM-16",
+      "qtyReceived": 52
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T043",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qtyReceived": 39
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T044",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "qtyReceived": 52
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T045",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qtyReceived": 10
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T046",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "qtyReceived": 29
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T047",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "qtyReceived": 30
+     },
+     {
+      "sku": "SUPPORT-PRO",
+      "qtyReceived": 41
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T048",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "qtyReceived": 50
+     },
+     {
+      "sku": "TORQUE-KIT",
+      "qtyReceived": 22
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T049",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "qtyReceived": 30
+     },
+     {
+      "sku": "SSD-512",
+      "qtyReceived": 16
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T050",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qtyReceived": 52
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T051",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qtyReceived": 16
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T052",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qtyReceived": 5
+     },
+     {
+      "sku": "MAILER-A4",
+      "qtyReceived": 55
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T053",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qtyReceived": 40
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T054",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "qtyReceived": 34
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "qtyReceived": 30
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T055",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "qtyReceived": 22
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T056",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "qtyReceived": 1
+     },
+     {
+      "sku": "TORQUE-KIT",
+      "qtyReceived": 42
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T057",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "qtyReceived": 38
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T058",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "qtyReceived": 4
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T059",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qtyReceived": 29
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-T060",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "qtyReceived": 44
+     }
+    ]
+   }
+  ],
+  "answerKey": {
+   "T-001": [
+    "QTY_MISMATCH"
+   ],
+   "T-002": [],
+   "T-003": [],
+   "T-004": [],
+   "T-005": [],
+   "T-006": [],
+   "T-007": [
+    "TAX_MATH_ERROR"
+   ],
+   "T-008": [],
+   "T-009": [],
+   "T-010": [],
+   "T-011": [],
+   "T-012": [
+    "UNAUTHORIZED_CHARGE"
+   ],
+   "T-013": [],
+   "T-014": [],
+   "T-015": [
+    "UNAUTHORIZED_CHARGE"
+   ],
+   "T-016": [
+    "TOTAL_MISMATCH"
+   ],
+   "T-017": [],
+   "T-018": [
+    "DUPLICATE_INVOICE"
+   ],
+   "T-019": [],
+   "T-020": [],
+   "T-021": [
+    "DUPLICATE_INVOICE"
+   ],
+   "T-022": [],
+   "T-023": [
+    "UNAUTHORIZED_CHARGE"
+   ],
+   "T-024": [],
+   "T-025": [],
+   "T-026": [
+    "PRICE_MISMATCH"
+   ],
+   "T-027": [],
+   "T-028": [
+    "UNAUTHORIZED_CHARGE"
+   ],
+   "T-029": [],
+   "T-030": [],
+   "T-031": [
+    "TAX_MATH_ERROR"
+   ],
+   "T-032": [],
+   "T-033": [
+    "TOTAL_MISMATCH"
+   ],
+   "T-034": [],
+   "T-035": [
+    "GST_RATE_WRONG"
+   ],
+   "T-036": [
+    "QTY_MISMATCH"
+   ],
+   "T-037": [],
+   "T-038": [
+    "PRICE_MISMATCH"
+   ],
+   "T-039": [
+    "TAX_MATH_ERROR"
+   ],
+   "T-040": [],
+   "T-041": [],
+   "T-042": [
+    "DUPLICATE_INVOICE"
+   ],
+   "T-043": [],
+   "T-044": [],
+   "T-045": [
+    "GST_RATE_WRONG"
+   ],
+   "T-046": [],
+   "T-047": [],
+   "T-048": [],
+   "T-049": [],
+   "T-050": [],
+   "T-051": [
+    "PRICE_MISMATCH"
+   ],
+   "T-052": [],
+   "T-053": [
+    "PRICE_MISMATCH"
+   ],
+   "T-054": [],
+   "T-055": [
+    "QTY_MISMATCH"
+   ],
+   "T-056": [
+    "QTY_MISMATCH"
+   ],
+   "T-057": [],
+   "T-058": [
+    "TOTAL_MISMATCH"
+   ],
+   "T-059": [
+    "GST_RATE_WRONG"
+   ],
+   "T-060": []
+  },
+  "smudged": [
+   "T-055",
+   "T-001",
+   "T-036"
+  ]
+ },
+ "shadow": {
+  "invoices": [
+   {
+    "id": "S-001",
+    "number": "S1/26/1000",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-S001",
+    "date": "2026-09-01",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "qty": 11,
+      "unitPrice": 345000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 740125,
+    "grandTotal": 4535125
+   },
+   {
+    "id": "S-002",
+    "number": "S2/26/1001",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-S002",
+    "date": "2026-09-02",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "hsn": "0910",
+      "qty": 47,
+      "unitPrice": 1850000,
+      "gstRate": 5
+     },
+     {
+      "sku": "CARD-GRN-10KG",
+      "hsn": "0910",
+      "qty": 4,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 4827480,
+    "grandTotal": 101377080
+   },
+   {
+    "id": "S-003",
+    "number": "S3/26/1002",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-S003",
+    "date": "2026-09-03",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "hsn": "6109",
+      "qty": 57,
+      "unitPrice": 34900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 99465,
+    "grandTotal": 2088765
+   },
+   {
+    "id": "S-004",
+    "number": "S4/26/1003",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-S004",
+    "date": "2026-09-04",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "qty": 26,
+      "unitPrice": 1250,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 5850,
+    "grandTotal": 38350
+   },
+   {
+    "id": "S-005",
+    "number": "S5/26/1004",
+    "supplierId": "S5",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-S005",
+    "date": "2026-09-05",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S5/26/1004   Date: 2026-09-05\nSupplier: Ledgerwise Consulting (state KA)   Bill to state: KA\nPO Ref: PO-S005   Currency: INR\nItems:\n- AUDIT-HR | HSN 9983 | Qty 3? | Rate 4,500.00 | GST 18%\nTax total: 31,590.00\nGrand total: 2,07,090.00"
+   },
+   {
+    "id": "S-006",
+    "number": "S6/26/1005",
+    "supplierId": "S6",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-S006",
+    "date": "2026-09-06",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "qty": 18,
+      "unitPrice": 650000,
+      "gstRate": 18
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "qty": 34,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 27810000,
+    "grandTotal": 182310000
+   },
+   {
+    "id": "S-007",
+    "number": "S7/26/1006",
+    "supplierId": "S7",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-S007",
+    "date": "2026-09-07",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "hsn": "NA",
+      "qty": 36,
+      "unitPrice": 120000,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 4320000
+   },
+   {
+    "id": "S-008",
+    "number": "S8/26/1007",
+    "supplierId": "S8",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-S008",
+    "date": "2026-09-08",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "qty": 36,
+      "unitPrice": 7450,
+      "gstRate": 0
+     },
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "qty": 20,
+      "unitPrice": 18999,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 648180
+   },
+   {
+    "id": "S-009",
+    "number": "S1/26/1008",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-S009",
+    "date": "2026-09-09",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "qty": 33,
+      "unitPrice": 345000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 2049300,
+    "grandTotal": 13434300
+   },
+   {
+    "id": "S-010",
+    "number": "S2/26/1009",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-S010",
+    "date": "2026-09-10",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "hsn": "0910",
+      "qty": 30,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 3599850,
+    "grandTotal": 75596850
+   },
+   {
+    "id": "S-011",
+    "number": "S3/26/1010",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-S011",
+    "date": "2026-09-11",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S3/26/1010   Date: 2026-09-11\nSupplier: Loomcraft Apparel (state TN)   Bill to state: KA\nPO Ref: PO-S011   Currency: INR\nItems:\n- TEE-CTN-L | HSN 6109 | Qty 4? | Rate 369.00 | GST 5%\nTax total: 830.25\nGrand total: 17,435.25"
+   },
+   {
+    "id": "S-012",
+    "number": "S4/26/1011",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-S012",
+    "date": "2026-09-12",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S4/26/1011   Date: 2026-09-12\nSupplier: PolyPack Industries (state MH)   Bill to state: KA\nPO Ref: PO-S012   Currency: INR\nItems:\n- BUBBLE-ROLL | HSN 3923 | Qty 14 | Rate 932.46 | GST 18%\nTax total: 2,349.80\nGrand total: 15,404.24"
+   },
+   {
+    "id": "S-013",
+    "number": "S5/26/1012",
+    "supplierId": "S5",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-S013",
+    "date": "2026-09-13",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "hsn": "9983",
+      "qty": 24,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 1944000,
+    "grandTotal": 12760200
+   },
+   {
+    "id": "S-014",
+    "number": "S6/26/1013",
+    "supplierId": "S6",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-S014",
+    "date": "2026-09-14",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "qty": 13,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     },
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "qty": 8,
+      "unitPrice": 650000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 10764000,
+    "grandTotal": 70564000
+   },
+   {
+    "id": "S-015",
+    "number": "S7/26/1014",
+    "supplierId": "S7",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-S015",
+    "date": "2026-09-15",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "hsn": "NA",
+      "qty": 37,
+      "unitPrice": 120000,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 4465600
+   },
+   {
+    "id": "S-016",
+    "number": "S8/26/1007",
+    "supplierId": "S8",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-S008",
+    "date": "2026-09-08",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "qty": 36,
+      "unitPrice": 7450,
+      "gstRate": 0
+     },
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "qty": 20,
+      "unitPrice": 18999,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 648180
+   },
+   {
+    "id": "S-017",
+    "number": "S1/26/1016",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-S017",
+    "date": "2026-09-17",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PSU-650",
+      "hsn": "8504",
+      "qty": 41,
+      "unitPrice": 512000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 3778560,
+    "grandTotal": 24770560
+   },
+   {
+    "id": "S-018",
+    "number": "S2/26/1017",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-S018",
+    "date": "2026-09-18",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "hsn": "0910",
+      "qty": 38,
+      "unitPrice": 1850000,
+      "gstRate": 5
+     },
+     {
+      "sku": "CARD-GRN-10KG",
+      "hsn": "0910",
+      "qty": 7,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 4354965,
+    "grandTotal": 91454265
+   },
+   {
+    "id": "S-019",
+    "number": "S3/26/1018",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-S019",
+    "date": "2026-09-19",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "hsn": "6109",
+      "qty": 57,
+      "unitPrice": 36900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 105165,
+    "grandTotal": 2208465
+   },
+   {
+    "id": "S-020",
+    "number": "S4/26/1019",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-S020",
+    "date": "2026-09-20",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "hsn": "3923",
+      "qty": 16,
+      "unitPrice": 89000,
+      "gstRate": 18
+     },
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "qty": 17,
+      "unitPrice": 1250,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 260145,
+    "grandTotal": 1705395
+   },
+   {
+    "id": "S-021",
+    "number": "S5/26/1020",
+    "supplierId": "S5",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-S021",
+    "date": "2026-09-21",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "hsn": "9983",
+      "qty": 2,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 162000,
+    "grandTotal": 1062000
+   },
+   {
+    "id": "S-022",
+    "number": "S6/26/1021",
+    "supplierId": "S6",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-S022",
+    "date": "2026-09-22",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "qty": 49,
+      "unitPrice": 650000,
+      "gstRate": 18
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "qty": 44,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 38997000,
+    "grandTotal": 255647000
+   },
+   {
+    "id": "S-023",
+    "number": "S7/26/1022",
+    "supplierId": "S7",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-S023",
+    "date": "2026-09-23",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "hsn": "NA",
+      "qty": 7,
+      "unitPrice": 4900,
+      "gstRate": 0
+     },
+     {
+      "sku": "SUPPORT-PRO",
+      "hsn": "NA",
+      "qty": 14,
+      "unitPrice": 120000,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 1714300
+   },
+   {
+    "id": "S-024",
+    "number": "S8/26/1023",
+    "supplierId": "S8",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-S024",
+    "date": "2026-09-24",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "qty": 56,
+      "unitPrice": 18999,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 1063944
+   },
+   {
+    "id": "S-025",
+    "number": "S1/26/1024",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-S025",
+    "date": "2026-09-25",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "PSU-650",
+      "hsn": "8504",
+      "qty": 27,
+      "unitPrice": 512000,
+      "gstRate": 18
+     },
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "qty": 44,
+      "unitPrice": 289900,
+      "gstRate": 18
+     },
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "qty": 54,
+      "unitPrice": 345000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 8137728,
+    "grandTotal": 53359028
+   },
+   {
+    "id": "S-026",
+    "number": "S2/26/1025",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-S026",
+    "date": "2026-09-26",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S2/26/1025   Date: 2026-09-26\nSupplier: Saffron Spice Traders (state KL)   Bill to state: KA\nPO Ref: PO-S026   Currency: INR\nItems:\n- CARD-GRN-10KG | HSN 0910 | Qty 24 | Rate 23,999.00 | GST 5%\n- PEP-BLK-25KG | HSN 0910 | Qty 9 | Rate 18,500.00 | GST 5%\nTax total: 48,261.94\nGrand total: 7,90,737.94"
+   },
+   {
+    "id": "S-027",
+    "number": "S3/26/1026",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-S027",
+    "date": "2026-09-27",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "hsn": "6109",
+      "qty": 39,
+      "unitPrice": 36900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 71955,
+    "grandTotal": 1511055
+   },
+   {
+    "id": "S-028",
+    "number": "S4/26/1027",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-S028",
+    "date": "2026-09-28",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "qty": 52,
+      "unitPrice": 1250,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 11700,
+    "grandTotal": 76700
+   },
+   {
+    "id": "S-029",
+    "number": "S5/26/1028",
+    "supplierId": "S5",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-S029",
+    "date": "2026-09-29",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "hsn": "9983",
+      "qty": 23,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 1863000,
+    "grandTotal": 12213000
+   },
+   {
+    "id": "S-030",
+    "number": "S6/26/1029",
+    "supplierId": "S6",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-S030",
+    "date": "2026-09-30",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "qty": 42,
+      "unitPrice": 650000,
+      "gstRate": 18
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "qty": 32,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 29106000,
+    "grandTotal": 190806000
+   },
+   {
+    "id": "S-031",
+    "number": "S7/26/1030",
+    "supplierId": "S7",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-S031",
+    "date": "2026-10-01",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "hsn": "NA",
+      "qty": 33,
+      "unitPrice": 120000,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 3960000
+   },
+   {
+    "id": "S-032",
+    "number": "S8/26/1031",
+    "supplierId": "S8",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-S032",
+    "date": "2026-10-02",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "qty": 53,
+      "unitPrice": 18999,
+      "gstRate": 0
+     },
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "qty": 44,
+      "unitPrice": 7450,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 1334747
+   },
+   {
+    "id": "S-033",
+    "number": "S1/26/1032",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-S033",
+    "date": "2026-10-03",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S1/26/1032   Date: 2026-10-03\nSupplier: Nimbus Components (state KA)   Bill to state: KA\nPO Ref: PO-S033   Currency: INR\nItems:\n- RAM-16 | HSN 8471 | Qty 16 | Rate 2,899.00 | GST 28%\nTax total: 12,987.52\nGrand total: 59,371.52"
+   },
+   {
+    "id": "S-034",
+    "number": "S2/26/1033",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-S034",
+    "date": "2026-10-04",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S2/26/1033   Date: 2026-10-04\nSupplier: Saffron Spice Traders (state KL)   Bill to state: KA\nPO Ref: PO-S034   Currency: INR\nItems:\n- PEP-BLK-25KG | HSN 0910 | Qty 16 | Rate 18,500.00 | GST 12%\nTax total: 35,520.00\nGrand total: 3,31,520.00"
+   },
+   {
+    "id": "S-035",
+    "number": "S3/26/1034",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-S035",
+    "date": "2026-10-05",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "hsn": "6109",
+      "qty": 46,
+      "unitPrice": 34900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [
+     {
+      "label": "Handling fee",
+      "amount": 32608
+     }
+    ],
+    "taxTotal": 80270,
+    "grandTotal": 1718278
+   },
+   {
+    "id": "S-036",
+    "number": "S4/26/1027",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-S028",
+    "date": "2026-09-28",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "qty": 52,
+      "unitPrice": 1250,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 11700,
+    "grandTotal": 76700
+   },
+   {
+    "id": "S-037",
+    "number": "S5/26/1036",
+    "supplierId": "S5",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-S037",
+    "date": "2026-10-07",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S5/26/1036   Date: 2026-10-07\nSupplier: Ledgerwise Consulting (state KA)   Bill to state: KA\nPO Ref: PO-S037   Currency: INR\nItems:\n- AUDIT-HR | HSN 9983 | Qty 29 | Rate 4,500.00 | GST 28%\nTax total: 36,540.00\nGrand total: 1,67,040.00"
+   },
+   {
+    "id": "S-038",
+    "number": "S6/26/1037",
+    "supplierId": "S6",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-S038",
+    "date": "2026-10-08",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "qty": 13,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     },
+     {
+      "sku": "LTL-PALLET",
+      "hsn": "9983",
+      "qty": 8,
+      "unitPrice": 650000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [
+     {
+      "label": "Handling fee",
+      "amount": 1196500
+     }
+    ],
+    "taxTotal": 10764000,
+    "grandTotal": 71760500
+   },
+   {
+    "id": "S-039",
+    "number": "S7/26/1038",
+    "supplierId": "S7",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-S039",
+    "date": "2026-10-09",
+    "currency": "USD",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S7/26/1038   Date: 2026-10-09\nSupplier: Cobalt Cloud Inc (state US)   Bill to state: KA\nPO Ref: PO-S039   Currency: USD\nItems:\n- SUPPORT-PRO | HSN NA | Qty 4 | Rate 1,276.92 | GST 0%\n- CLOUD-SEAT | HSN NA | Qty 20 | Rate 49.00 | GST 0%\nTax total: 0.00\nGrand total: 6,087.68"
+   },
+   {
+    "id": "S-040",
+    "number": "S8/26/1031",
+    "supplierId": "S8",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-S032",
+    "date": "2026-10-02",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "qty": 53,
+      "unitPrice": 18999,
+      "gstRate": 0
+     },
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "qty": 44,
+      "unitPrice": 7450,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 1334747
+   },
+   {
+    "id": "S-041",
+    "number": "S1/26/1040",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-S041",
+    "date": "2026-10-11",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "qty": 53,
+      "unitPrice": 345000,
+      "gstRate": 18
+     },
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "qty": 49,
+      "unitPrice": 289900,
+      "gstRate": 18
+     },
+     {
+      "sku": "PSU-650",
+      "hsn": "8504",
+      "qty": 10,
+      "unitPrice": 512000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 6769818,
+    "grandTotal": 44379918
+   },
+   {
+    "id": "S-042",
+    "number": "S2/26/1041",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-S042",
+    "date": "2026-10-12",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "hsn": "0910",
+      "qty": 41,
+      "unitPrice": 2525895,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 5178085,
+    "grandTotal": 108739780
+   },
+   {
+    "id": "S-043",
+    "number": "S3/26/1042",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-S043",
+    "date": "2026-10-13",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "hsn": "6109",
+      "qty": 55,
+      "unitPrice": 36900,
+      "gstRate": 5
+     },
+     {
+      "sku": "TEE-CTN-M",
+      "hsn": "6109",
+      "qty": 49,
+      "unitPrice": 34900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 186980,
+    "grandTotal": 3926580
+   },
+   {
+    "id": "S-044",
+    "number": "S4/26/1043",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-S044",
+    "date": "2026-10-14",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "hsn": "3923",
+      "qty": 27,
+      "unitPrice": 89000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [
+     {
+      "label": "Handling fee",
+      "amount": 48560
+     }
+    ],
+    "taxTotal": 432540,
+    "grandTotal": 2884100
+   },
+   {
+    "id": "S-045",
+    "number": "S5/26/1044",
+    "supplierId": "S5",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-S045",
+    "date": "2026-10-15",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S5/26/1044   Date: 2026-10-15\nSupplier: Ledgerwise Consulting (state KA)   Bill to state: KA\nPO Ref: PO-S045   Currency: INR\nItems:\n- AUDIT-HR | HSN 9983 | Qty 2? | Rate 4,500.00 | GST 18%\nTax total: 23,490.00\nGrand total: 1,53,990.00"
+   },
+   {
+    "id": "S-046",
+    "number": "S6/26/1045",
+    "supplierId": "S6",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-S046",
+    "date": "2026-10-16",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "hsn": "9983",
+      "qty": 59,
+      "unitPrice": 4200000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [
+     {
+      "label": "Fuel surcharge",
+      "amount": 4956500
+     }
+    ],
+    "taxTotal": 44604000,
+    "grandTotal": 297360500
+   },
+   {
+    "id": "S-047",
+    "number": "S7/26/1046",
+    "supplierId": "S7",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-S047",
+    "date": "2026-10-17",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "hsn": "NA",
+      "qty": 35,
+      "unitPrice": 120000,
+      "gstRate": 0
+     },
+     {
+      "sku": "CLOUD-SEAT",
+      "hsn": "NA",
+      "qty": 50,
+      "unitPrice": 4900,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 4445000
+   },
+   {
+    "id": "S-048",
+    "number": "S8/26/1047",
+    "supplierId": "S8",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-S048",
+    "date": "2026-10-18",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "hsn": "NA",
+      "qty": 22,
+      "unitPrice": 18999,
+      "gstRate": 0
+     },
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "qty": 30,
+      "unitPrice": 7450,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 641478
+   },
+   {
+    "id": "S-049",
+    "number": "S1/26/1048",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-S049",
+    "date": "2026-10-19",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "qty": 16,
+      "unitPrice": 289900,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 834912,
+    "grandTotal": 5473312
+   },
+   {
+    "id": "S-050",
+    "number": "S2/26/1049",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-S050",
+    "date": "2026-10-20",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "hsn": "0910",
+      "qty": 4,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     },
+     {
+      "sku": "PEP-BLK-25KG",
+      "hsn": "0910",
+      "qty": 48,
+      "unitPrice": 1850000,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 4919980,
+    "grandTotal": 103319580
+   },
+   {
+    "id": "S-051",
+    "number": "S3/26/1050",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-S051",
+    "date": "2026-10-21",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "hsn": "6109",
+      "qty": 11,
+      "unitPrice": 34900,
+      "gstRate": 5
+     },
+     {
+      "sku": "TEE-CTN-L",
+      "hsn": "6109",
+      "qty": 22,
+      "unitPrice": 36900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 59785,
+    "grandTotal": 1255485
+   },
+   {
+    "id": "S-052",
+    "number": "S4/26/1051",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-S052",
+    "date": "2026-10-22",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "hsn": "3923",
+      "qty": 6,
+      "unitPrice": 89000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 96120,
+    "grandTotal": 630120
+   },
+   {
+    "id": "S-053",
+    "number": "S5/26/1052",
+    "supplierId": "S5",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-S053",
+    "date": "2026-10-23",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "hsn": "9983",
+      "qty": 35,
+      "unitPrice": 450000,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 2835000,
+    "grandTotal": 18585000
+   },
+   {
+    "id": "S-054",
+    "number": "S6/26/1053",
+    "supplierId": "S6",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-S054",
+    "date": "2026-10-24",
+    "currency": "INR",
+    "lines": [],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 0,
+    "raw": "TAX INVOICE   No: S6/26/1053   Date: 2026-10-24\nSupplier: Harborline Freight (state MH)   Bill to state: KA\nPO Ref: PO-S054   Currency: INR\nItems:\n- FTL-BLR-MUM | HSN 9983 | Qty 53 | Rate 44,032.80 | GST 18%\nTax total: 4,20,072.91\nGrand total: 27,53,811.31"
+   },
+   {
+    "id": "S-055",
+    "number": "S7/26/1054",
+    "supplierId": "S7",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-S055",
+    "date": "2026-10-25",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "hsn": "NA",
+      "qty": 40,
+      "unitPrice": 120000,
+      "gstRate": 0
+     },
+     {
+      "sku": "CLOUD-SEAT",
+      "hsn": "NA",
+      "qty": 29,
+      "unitPrice": 4900,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 4942100
+   },
+   {
+    "id": "S-056",
+    "number": "S8/26/1055",
+    "supplierId": "S8",
+    "supplierState": "US",
+    "buyerState": "KA",
+    "poNumber": "PO-S056",
+    "date": "2026-10-26",
+    "currency": "USD",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "hsn": "NA",
+      "qty": 43,
+      "unitPrice": 7450,
+      "gstRate": 0
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 0,
+    "grandTotal": 320350
+   },
+   {
+    "id": "S-057",
+    "number": "S1/26/1056",
+    "supplierId": "S1",
+    "supplierState": "KA",
+    "buyerState": "KA",
+    "poNumber": "PO-S057",
+    "date": "2026-10-27",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "hsn": "8471",
+      "qty": 29,
+      "unitPrice": 345000,
+      "gstRate": 18
+     },
+     {
+      "sku": "RAM-16",
+      "hsn": "8471",
+      "qty": 26,
+      "unitPrice": 289900,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 3157632,
+    "grandTotal": 20700032
+   },
+   {
+    "id": "S-058",
+    "number": "S2/26/1057",
+    "supplierId": "S2",
+    "supplierState": "KL",
+    "buyerState": "KA",
+    "poNumber": "PO-S058",
+    "date": "2026-10-28",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "hsn": "0910",
+      "qty": 21,
+      "unitPrice": 2399900,
+      "gstRate": 5
+     },
+     {
+      "sku": "PEP-BLK-25KG",
+      "hsn": "0910",
+      "qty": 39,
+      "unitPrice": 1850000,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 7965714,
+    "grandTotal": 130513614
+   },
+   {
+    "id": "S-059",
+    "number": "S3/26/1058",
+    "supplierId": "S3",
+    "supplierState": "TN",
+    "buyerState": "KA",
+    "poNumber": "PO-S059",
+    "date": "2026-10-29",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "hsn": "6109",
+      "qty": 20,
+      "unitPrice": 36900,
+      "gstRate": 5
+     },
+     {
+      "sku": "TEE-CTN-M",
+      "hsn": "6109",
+      "qty": 21,
+      "unitPrice": 34900,
+      "gstRate": 5
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 73545,
+    "grandTotal": 1544445
+   },
+   {
+    "id": "S-060",
+    "number": "S4/26/1059",
+    "supplierId": "S4",
+    "supplierState": "MH",
+    "buyerState": "KA",
+    "poNumber": "PO-S060",
+    "date": "2026-10-30",
+    "currency": "INR",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "hsn": "3923",
+      "qty": 41,
+      "unitPrice": 89000,
+      "gstRate": 18
+     },
+     {
+      "sku": "MAILER-A4",
+      "hsn": "3923",
+      "qty": 20,
+      "unitPrice": 1250,
+      "gstRate": 18
+     }
+    ],
+    "surcharges": [],
+    "taxTotal": 661320,
+    "grandTotal": 4335320
+   }
+  ],
+  "pos": [
+   {
+    "number": "PO-S001",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "qty": 11,
+      "unitPrice": 345000
+     }
+    ]
+   },
+   {
+    "number": "PO-S002",
+    "supplierId": "S2",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "qty": 47,
+      "unitPrice": 1850000
+     },
+     {
+      "sku": "CARD-GRN-10KG",
+      "qty": 4,
+      "unitPrice": 2399900
+     }
+    ]
+   },
+   {
+    "number": "PO-S003",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "qty": 57,
+      "unitPrice": 34900
+     }
+    ]
+   },
+   {
+    "number": "PO-S004",
+    "supplierId": "S4",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "qty": 26,
+      "unitPrice": 1250
+     }
+    ]
+   },
+   {
+    "number": "PO-S005",
+    "supplierId": "S5",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qty": 39,
+      "unitPrice": 450000
+     }
+    ]
+   },
+   {
+    "number": "PO-S006",
+    "supplierId": "S6",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "qty": 18,
+      "unitPrice": 650000
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "qty": 34,
+      "unitPrice": 4200000
+     }
+    ]
+   },
+   {
+    "number": "PO-S007",
+    "supplierId": "S7",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qty": 36,
+      "unitPrice": 120000
+     }
+    ]
+   },
+   {
+    "number": "PO-S008",
+    "supplierId": "S8",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "qty": 36,
+      "unitPrice": 7450
+     },
+     {
+      "sku": "TORQUE-KIT",
+      "qty": 20,
+      "unitPrice": 18999
+     }
+    ]
+   },
+   {
+    "number": "PO-S009",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "qty": 33,
+      "unitPrice": 345000
+     }
+    ]
+   },
+   {
+    "number": "PO-S010",
+    "supplierId": "S2",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qty": 30,
+      "unitPrice": 2399900
+     }
+    ]
+   },
+   {
+    "number": "PO-S011",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qty": 45,
+      "unitPrice": 36900
+     }
+    ]
+   },
+   {
+    "number": "PO-S012",
+    "supplierId": "S4",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qty": 14,
+      "unitPrice": 89000
+     }
+    ]
+   },
+   {
+    "number": "PO-S013",
+    "supplierId": "S5",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qty": 24,
+      "unitPrice": 450000
+     }
+    ]
+   },
+   {
+    "number": "PO-S014",
+    "supplierId": "S6",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "qty": 13,
+      "unitPrice": 4200000
+     },
+     {
+      "sku": "LTL-PALLET",
+      "qty": 8,
+      "unitPrice": 650000
+     }
+    ]
+   },
+   {
+    "number": "PO-S015",
+    "supplierId": "S7",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qty": 37,
+      "unitPrice": 120000
+     }
+    ]
+   },
+   {
+    "number": "PO-S017",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "PSU-650",
+      "qty": 41,
+      "unitPrice": 512000
+     }
+    ]
+   },
+   {
+    "number": "PO-S018",
+    "supplierId": "S2",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "qty": 38,
+      "unitPrice": 1850000
+     },
+     {
+      "sku": "CARD-GRN-10KG",
+      "qty": 7,
+      "unitPrice": 2399900
+     }
+    ]
+   },
+   {
+    "number": "PO-S019",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qty": 57,
+      "unitPrice": 36900
+     }
+    ]
+   },
+   {
+    "number": "PO-S020",
+    "supplierId": "S4",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qty": 16,
+      "unitPrice": 89000
+     },
+     {
+      "sku": "MAILER-A4",
+      "qty": 17,
+      "unitPrice": 1250
+     }
+    ]
+   },
+   {
+    "number": "PO-S021",
+    "supplierId": "S5",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qty": 2,
+      "unitPrice": 450000
+     }
+    ]
+   },
+   {
+    "number": "PO-S022",
+    "supplierId": "S6",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "qty": 49,
+      "unitPrice": 650000
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "qty": 44,
+      "unitPrice": 4200000
+     }
+    ]
+   },
+   {
+    "number": "PO-S023",
+    "supplierId": "S7",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "qty": 7,
+      "unitPrice": 4900
+     },
+     {
+      "sku": "SUPPORT-PRO",
+      "qty": 14,
+      "unitPrice": 120000
+     }
+    ]
+   },
+   {
+    "number": "PO-S024",
+    "supplierId": "S8",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "qty": 56,
+      "unitPrice": 18999
+     }
+    ]
+   },
+   {
+    "number": "PO-S025",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "PSU-650",
+      "qty": 27,
+      "unitPrice": 512000
+     },
+     {
+      "sku": "RAM-16",
+      "qty": 44,
+      "unitPrice": 289900
+     },
+     {
+      "sku": "SSD-512",
+      "qty": 54,
+      "unitPrice": 345000
+     }
+    ]
+   },
+   {
+    "number": "PO-S026",
+    "supplierId": "S2",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qty": 24,
+      "unitPrice": 2399900
+     },
+     {
+      "sku": "PEP-BLK-25KG",
+      "qty": 9,
+      "unitPrice": 1850000
+     }
+    ]
+   },
+   {
+    "number": "PO-S027",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qty": 39,
+      "unitPrice": 36900
+     }
+    ]
+   },
+   {
+    "number": "PO-S028",
+    "supplierId": "S4",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "qty": 52,
+      "unitPrice": 1250
+     }
+    ]
+   },
+   {
+    "number": "PO-S029",
+    "supplierId": "S5",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qty": 23,
+      "unitPrice": 450000
+     }
+    ]
+   },
+   {
+    "number": "PO-S030",
+    "supplierId": "S6",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "qty": 42,
+      "unitPrice": 650000
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "qty": 32,
+      "unitPrice": 4200000
+     }
+    ]
+   },
+   {
+    "number": "PO-S031",
+    "supplierId": "S7",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qty": 33,
+      "unitPrice": 120000
+     }
+    ]
+   },
+   {
+    "number": "PO-S032",
+    "supplierId": "S8",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "qty": 53,
+      "unitPrice": 18999
+     },
+     {
+      "sku": "CALIPER-D",
+      "qty": 44,
+      "unitPrice": 7450
+     }
+    ]
+   },
+   {
+    "number": "PO-S033",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "qty": 16,
+      "unitPrice": 289900
+     }
+    ]
+   },
+   {
+    "number": "PO-S034",
+    "supplierId": "S2",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "qty": 16,
+      "unitPrice": 1850000
+     }
+    ]
+   },
+   {
+    "number": "PO-S035",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "qty": 46,
+      "unitPrice": 34900
+     }
+    ]
+   },
+   {
+    "number": "PO-S037",
+    "supplierId": "S5",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qty": 29,
+      "unitPrice": 450000
+     }
+    ]
+   },
+   {
+    "number": "PO-S038",
+    "supplierId": "S6",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "qty": 13,
+      "unitPrice": 4200000
+     },
+     {
+      "sku": "LTL-PALLET",
+      "qty": 8,
+      "unitPrice": 650000
+     }
+    ]
+   },
+   {
+    "number": "PO-S039",
+    "supplierId": "S7",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qty": 4,
+      "unitPrice": 120000
+     },
+     {
+      "sku": "CLOUD-SEAT",
+      "qty": 20,
+      "unitPrice": 4900
+     }
+    ]
+   },
+   {
+    "number": "PO-S041",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "qty": 53,
+      "unitPrice": 345000
+     },
+     {
+      "sku": "RAM-16",
+      "qty": 49,
+      "unitPrice": 289900
+     },
+     {
+      "sku": "PSU-650",
+      "qty": 10,
+      "unitPrice": 512000
+     }
+    ]
+   },
+   {
+    "number": "PO-S042",
+    "supplierId": "S2",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qty": 41,
+      "unitPrice": 2399900
+     }
+    ]
+   },
+   {
+    "number": "PO-S043",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qty": 55,
+      "unitPrice": 36900
+     },
+     {
+      "sku": "TEE-CTN-M",
+      "qty": 49,
+      "unitPrice": 34900
+     }
+    ]
+   },
+   {
+    "number": "PO-S044",
+    "supplierId": "S4",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qty": 27,
+      "unitPrice": 89000
+     }
+    ]
+   },
+   {
+    "number": "PO-S045",
+    "supplierId": "S5",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qty": 29,
+      "unitPrice": 450000
+     }
+    ]
+   },
+   {
+    "number": "PO-S046",
+    "supplierId": "S6",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "qty": 59,
+      "unitPrice": 4200000
+     }
+    ]
+   },
+   {
+    "number": "PO-S047",
+    "supplierId": "S7",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qty": 35,
+      "unitPrice": 120000
+     },
+     {
+      "sku": "CLOUD-SEAT",
+      "qty": 50,
+      "unitPrice": 4900
+     }
+    ]
+   },
+   {
+    "number": "PO-S048",
+    "supplierId": "S8",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "qty": 22,
+      "unitPrice": 18999
+     },
+     {
+      "sku": "CALIPER-D",
+      "qty": 30,
+      "unitPrice": 7450
+     }
+    ]
+   },
+   {
+    "number": "PO-S049",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "qty": 16,
+      "unitPrice": 289900
+     }
+    ]
+   },
+   {
+    "number": "PO-S050",
+    "supplierId": "S2",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qty": 4,
+      "unitPrice": 2399900
+     },
+     {
+      "sku": "PEP-BLK-25KG",
+      "qty": 48,
+      "unitPrice": 1850000
+     }
+    ]
+   },
+   {
+    "number": "PO-S051",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "qty": 11,
+      "unitPrice": 34900
+     },
+     {
+      "sku": "TEE-CTN-L",
+      "qty": 22,
+      "unitPrice": 36900
+     }
+    ]
+   },
+   {
+    "number": "PO-S052",
+    "supplierId": "S4",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qty": 6,
+      "unitPrice": 89000
+     }
+    ]
+   },
+   {
+    "number": "PO-S053",
+    "supplierId": "S5",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qty": 35,
+      "unitPrice": 450000
+     }
+    ]
+   },
+   {
+    "number": "PO-S054",
+    "supplierId": "S6",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "qty": 53,
+      "unitPrice": 4200000
+     }
+    ]
+   },
+   {
+    "number": "PO-S055",
+    "supplierId": "S7",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qty": 40,
+      "unitPrice": 120000
+     },
+     {
+      "sku": "CLOUD-SEAT",
+      "qty": 29,
+      "unitPrice": 4900
+     }
+    ]
+   },
+   {
+    "number": "PO-S056",
+    "supplierId": "S8",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "qty": 43,
+      "unitPrice": 7450
+     }
+    ]
+   },
+   {
+    "number": "PO-S057",
+    "supplierId": "S1",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "qty": 29,
+      "unitPrice": 345000
+     },
+     {
+      "sku": "RAM-16",
+      "qty": 26,
+      "unitPrice": 289900
+     }
+    ]
+   },
+   {
+    "number": "PO-S058",
+    "supplierId": "S2",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qty": 21,
+      "unitPrice": 2399900
+     },
+     {
+      "sku": "PEP-BLK-25KG",
+      "qty": 39,
+      "unitPrice": 1850000
+     }
+    ]
+   },
+   {
+    "number": "PO-S059",
+    "supplierId": "S3",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qty": 20,
+      "unitPrice": 36900
+     },
+     {
+      "sku": "TEE-CTN-M",
+      "qty": 21,
+      "unitPrice": 34900
+     }
+    ]
+   },
+   {
+    "number": "PO-S060",
+    "supplierId": "S4",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qty": 41,
+      "unitPrice": 89000
+     },
+     {
+      "sku": "MAILER-A4",
+      "qty": 20,
+      "unitPrice": 1250
+     }
+    ]
+   }
+  ],
+  "grns": [
+   {
+    "poNumber": "PO-S001",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "qtyReceived": 11
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S002",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "qtyReceived": 47
+     },
+     {
+      "sku": "CARD-GRN-10KG",
+      "qtyReceived": 4
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S003",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "qtyReceived": 57
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S004",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "qtyReceived": 26
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S005",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qtyReceived": 31
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S006",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "qtyReceived": 18
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "qtyReceived": 34
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S007",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qtyReceived": 36
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S008",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "qtyReceived": 36
+     },
+     {
+      "sku": "TORQUE-KIT",
+      "qtyReceived": 20
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S009",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "qtyReceived": 33
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S010",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qtyReceived": 30
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S011",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qtyReceived": 38
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S012",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qtyReceived": 14
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S013",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qtyReceived": 24
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S014",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "qtyReceived": 13
+     },
+     {
+      "sku": "LTL-PALLET",
+      "qtyReceived": 8
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S015",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qtyReceived": 37
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S017",
+    "lines": [
+     {
+      "sku": "PSU-650",
+      "qtyReceived": 41
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S018",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "qtyReceived": 38
+     },
+     {
+      "sku": "CARD-GRN-10KG",
+      "qtyReceived": 7
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S019",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qtyReceived": 43
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S020",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qtyReceived": 16
+     },
+     {
+      "sku": "MAILER-A4",
+      "qtyReceived": 17
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S021",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qtyReceived": 2
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S022",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "qtyReceived": 49
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "qtyReceived": 44
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S023",
+    "lines": [
+     {
+      "sku": "CLOUD-SEAT",
+      "qtyReceived": 7
+     },
+     {
+      "sku": "SUPPORT-PRO",
+      "qtyReceived": 14
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S024",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "qtyReceived": 56
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S025",
+    "lines": [
+     {
+      "sku": "PSU-650",
+      "qtyReceived": 27
+     },
+     {
+      "sku": "RAM-16",
+      "qtyReceived": 44
+     },
+     {
+      "sku": "SSD-512",
+      "qtyReceived": 54
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S026",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qtyReceived": 24
+     },
+     {
+      "sku": "PEP-BLK-25KG",
+      "qtyReceived": 9
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S027",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qtyReceived": 39
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S028",
+    "lines": [
+     {
+      "sku": "MAILER-A4",
+      "qtyReceived": 52
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S029",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qtyReceived": 23
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S030",
+    "lines": [
+     {
+      "sku": "LTL-PALLET",
+      "qtyReceived": 42
+     },
+     {
+      "sku": "FTL-BLR-MUM",
+      "qtyReceived": 32
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S031",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qtyReceived": 33
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S032",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "qtyReceived": 53
+     },
+     {
+      "sku": "CALIPER-D",
+      "qtyReceived": 44
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S033",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "qtyReceived": 16
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S034",
+    "lines": [
+     {
+      "sku": "PEP-BLK-25KG",
+      "qtyReceived": 16
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S035",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "qtyReceived": 46
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S037",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qtyReceived": 29
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S038",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "qtyReceived": 13
+     },
+     {
+      "sku": "LTL-PALLET",
+      "qtyReceived": 8
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S039",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qtyReceived": 4
+     },
+     {
+      "sku": "CLOUD-SEAT",
+      "qtyReceived": 20
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S041",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "qtyReceived": 53
+     },
+     {
+      "sku": "RAM-16",
+      "qtyReceived": 49
+     },
+     {
+      "sku": "PSU-650",
+      "qtyReceived": 10
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S042",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qtyReceived": 41
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S043",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qtyReceived": 55
+     },
+     {
+      "sku": "TEE-CTN-M",
+      "qtyReceived": 49
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S044",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qtyReceived": 27
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S045",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qtyReceived": 21
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S046",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "qtyReceived": 59
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S047",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qtyReceived": 35
+     },
+     {
+      "sku": "CLOUD-SEAT",
+      "qtyReceived": 50
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S048",
+    "lines": [
+     {
+      "sku": "TORQUE-KIT",
+      "qtyReceived": 22
+     },
+     {
+      "sku": "CALIPER-D",
+      "qtyReceived": 30
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S049",
+    "lines": [
+     {
+      "sku": "RAM-16",
+      "qtyReceived": 16
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S050",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qtyReceived": 4
+     },
+     {
+      "sku": "PEP-BLK-25KG",
+      "qtyReceived": 48
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S051",
+    "lines": [
+     {
+      "sku": "TEE-CTN-M",
+      "qtyReceived": 11
+     },
+     {
+      "sku": "TEE-CTN-L",
+      "qtyReceived": 22
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S052",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qtyReceived": 6
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S053",
+    "lines": [
+     {
+      "sku": "AUDIT-HR",
+      "qtyReceived": 35
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S054",
+    "lines": [
+     {
+      "sku": "FTL-BLR-MUM",
+      "qtyReceived": 53
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S055",
+    "lines": [
+     {
+      "sku": "SUPPORT-PRO",
+      "qtyReceived": 40
+     },
+     {
+      "sku": "CLOUD-SEAT",
+      "qtyReceived": 29
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S056",
+    "lines": [
+     {
+      "sku": "CALIPER-D",
+      "qtyReceived": 43
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S057",
+    "lines": [
+     {
+      "sku": "SSD-512",
+      "qtyReceived": 29
+     },
+     {
+      "sku": "RAM-16",
+      "qtyReceived": 26
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S058",
+    "lines": [
+     {
+      "sku": "CARD-GRN-10KG",
+      "qtyReceived": 21
+     },
+     {
+      "sku": "PEP-BLK-25KG",
+      "qtyReceived": 39
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S059",
+    "lines": [
+     {
+      "sku": "TEE-CTN-L",
+      "qtyReceived": 20
+     },
+     {
+      "sku": "TEE-CTN-M",
+      "qtyReceived": 21
+     }
+    ]
+   },
+   {
+    "poNumber": "PO-S060",
+    "lines": [
+     {
+      "sku": "BUBBLE-ROLL",
+      "qtyReceived": 41
+     },
+     {
+      "sku": "MAILER-A4",
+      "qtyReceived": 20
+     }
+    ]
+   }
+  ],
+  "answerKey": {
+   "S-001": [
+    "TAX_MATH_ERROR"
+   ],
+   "S-002": [],
+   "S-003": [],
+   "S-004": [],
+   "S-005": [
+    "QTY_MISMATCH"
+   ],
+   "S-006": [],
+   "S-007": [],
+   "S-008": [],
+   "S-009": [],
+   "S-010": [],
+   "S-011": [
+    "QTY_MISMATCH"
+   ],
+   "S-012": [
+    "PRICE_MISMATCH"
+   ],
+   "S-013": [
+    "TOTAL_MISMATCH"
+   ],
+   "S-014": [],
+   "S-015": [
+    "TOTAL_MISMATCH"
+   ],
+   "S-016": [
+    "DUPLICATE_INVOICE"
+   ],
+   "S-017": [],
+   "S-018": [],
+   "S-019": [
+    "QTY_MISMATCH"
+   ],
+   "S-020": [],
+   "S-021": [],
+   "S-022": [],
+   "S-023": [],
+   "S-024": [],
+   "S-025": [
+    "TOTAL_MISMATCH"
+   ],
+   "S-026": [
+    "TAX_MATH_ERROR"
+   ],
+   "S-027": [],
+   "S-028": [],
+   "S-029": [],
+   "S-030": [],
+   "S-031": [],
+   "S-032": [],
+   "S-033": [
+    "GST_RATE_WRONG"
+   ],
+   "S-034": [
+    "GST_RATE_WRONG"
+   ],
+   "S-035": [
+    "UNAUTHORIZED_CHARGE"
+   ],
+   "S-036": [
+    "DUPLICATE_INVOICE"
+   ],
+   "S-037": [
+    "GST_RATE_WRONG"
+   ],
+   "S-038": [
+    "UNAUTHORIZED_CHARGE"
+   ],
+   "S-039": [
+    "PRICE_MISMATCH"
+   ],
+   "S-040": [
+    "DUPLICATE_INVOICE"
+   ],
+   "S-041": [],
+   "S-042": [
+    "PRICE_MISMATCH"
+   ],
+   "S-043": [],
+   "S-044": [
+    "UNAUTHORIZED_CHARGE"
+   ],
+   "S-045": [
+    "QTY_MISMATCH"
+   ],
+   "S-046": [
+    "UNAUTHORIZED_CHARGE"
+   ],
+   "S-047": [],
+   "S-048": [],
+   "S-049": [],
+   "S-050": [],
+   "S-051": [],
+   "S-052": [],
+   "S-053": [],
+   "S-054": [
+    "PRICE_MISMATCH"
+   ],
+   "S-055": [],
+   "S-056": [],
+   "S-057": [],
+   "S-058": [
+    "TAX_MATH_ERROR"
+   ],
+   "S-059": [],
+   "S-060": []
+  },
+  "smudged": [
+   "S-011",
+   "S-005",
+   "S-045"
+  ]
+ }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "cashflowpilot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "gen:data": "tsx scripts/generate-sample-data.ts",
+    "gen:prototype": "tsx scripts/generate-prototype-docs.ts",
+    "eval:ai": "tsx --env-file-if-exists=.env.local scripts/eval-ai.ts",
+    "export:ai-reads": "tsx scripts/export-ai-reads.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.10.0",
+    "@electric-sql/pglite": "^0.5.17",
+    "@neondatabase/serverless": "^1.2.1",
+    "next": "^16.4.6",
+    "pdf-lib": "^1.17.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "unpdf": "^1.9.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "^1.1.1",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.1"
+  }
+}

@@ -1,0 +1,16 @@
+[
+  { "id": "security", "keywords": ["security", "secure", "access", "erp", "bank", "data", "safe", "isolated"],
+    "answer": "The trial is an isolated sandbox: it only sees sample files or files you upload. It has zero connection to your ERP, bank or payment systems, and nothing is written anywhere outside the trial." },
+  { "id": "retention", "keywords": ["retention", "delete", "keep", "store", "gdpr", "dpdp"],
+    "answer": "Trial data is deleted automatically after 24 hours, or immediately when you press Reset. Production tenants follow a written retention policy agreed in the contract." },
+  { "id": "erp", "keywords": ["tally", "zoho", "quickbooks", "netsuite", "sap", "integrate", "integration", "connect"],
+    "answer": "After a signed deal we connect read-only to Tally, Zoho Books, QuickBooks, NetSuite or SAP Business One. The first phase is Shadow Mode: we only read and compare, we never post or pay." },
+  { "id": "accuracy", "keywords": ["accuracy", "accurate", "wrong", "mistake", "error", "trust", "false"],
+    "answer": "All amounts, tax and matching are computed by deterministic code, not by AI. Live actions stay locked until Shadow Mode shows at least 95% agreement with your team over 50+ invoices." },
+  { "id": "gst", "keywords": ["gst", "cgst", "sgst", "igst", "tax", "hsn", "einvoice"],
+    "answer": "We check CGST/SGST for intra-state and IGST for inter-state invoices, flag rates that do not match the HSN/SAC schedule, and re-compute every tax total to the paisa." },
+  { "id": "pricing", "keywords": ["price", "pricing", "cost", "fee", "plan", "contract"],
+    "answer": "Pricing is per invoice processed with a monthly minimum; the founder will share a proposal on the call based on your volume." },
+  { "id": "setup", "keywords": ["setup", "onboard", "onboarding", "long", "time", "start", "weeks"],
+    "answer": "Shadow Mode is usually live within a week of signing. Assisted mode follows once the accuracy gate is met and your approver signs off." }
+]

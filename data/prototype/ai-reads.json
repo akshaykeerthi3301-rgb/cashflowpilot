@@ -1,0 +1,2351 @@
+{
+ "4e1c5e96c7f903b2efcd369898bf22595ee51a79d8d28dac9d32bbe47193d45b": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "11,412.28",
+   "igst": "",
+   "sgst": "11,412.28",
+   "lines": [
+    {
+     "hsn": "0910",
+     "qty": "13",
+     "sku": "PEP-BLK-25",
+     "rate": "18,500.00",
+     "amount": "2,40,500.00",
+     "gstRate": "5%",
+     "description": "Black Pepper, 25 kg bag"
+    },
+    {
+     "hsn": "0910",
+     "qty": "9",
+     "sku": "CARD-GRN-10",
+     "rate": "23,999.00",
+     "amount": "2,15,991.00",
+     "gstRate": "5%",
+     "description": "Green Cardamom, 10 kg"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2401",
+   "roundOff": "0.44",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "4,79,316.00",
+   "invoiceDate": "02-09-2026",
+   "supplierName": "Saffron Spice Traders",
+   "amountInWords": "Rupees Four Lakh Seventy Nine Thousand Three Hundred Sixteen Only",
+   "invoiceNumber": "S2/26-27/1001",
+   "supplierGstin": "32ABKFS2290Q1ZM",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "d628ee6d7fe9423c7ab72b33280408f299724189970672b0f9829fac26f01492": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "9,431.73",
+   "igst": "",
+   "sgst": "9,431.73",
+   "lines": [
+    {
+     "hsn": "8471",
+     "qty": "15",
+     "sku": "SSD-512",
+     "rate": "3,450.00",
+     "amount": "51,750.00",
+     "gstRate": "18%",
+     "description": "NVMe SSD 512 GB"
+    },
+    {
+     "hsn": "8471",
+     "qty": "13",
+     "sku": "RAM-16",
+     "rate": "2,899.00",
+     "amount": "37,687.00",
+     "gstRate": "18%",
+     "description": "DDR5 RAM 16 GB"
+    },
+    {
+     "hsn": "8504",
+     "qty": "3",
+     "sku": "PSU-650",
+     "rate": "5,120.00",
+     "amount": "15,360.00",
+     "gstRate": "18%",
+     "description": "Power Supply 650 W"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2400",
+   "roundOff": "-0.46",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.99,
+   "grandTotal": "1,23,660.00",
+   "invoiceDate": "01-09-2026",
+   "supplierName": "Nimbus Components Pvt Ltd",
+   "amountInWords": "Rupees One Lakh Twenty Three Thousand Six Hundred Sixty Only",
+   "invoiceNumber": "S1/26-27/1000",
+   "supplierGstin": "29AADCN4417K1Z8",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "8248a16b09f44612a9c4487501616fe335c111aacf9a561b265a0fa7509a3913": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "8,349.75",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "3923",
+     "qty": "3711",
+     "sku": "MAILER-A4",
+     "rate": "12.50",
+     "amount": "46,387.50",
+     "gstRate": "18%",
+     "description": "Poly mailer bag, A4"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2403",
+   "roundOff": "-0.25",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "54,737.00",
+   "invoiceDate": "04-09-2026",
+   "supplierName": "PolyPack Industries",
+   "amountInWords": "Rupees Fifty Four Thousand Seven Hundred Thirty Seven Only",
+   "invoiceNumber": "S4/26-27/1003",
+   "supplierGstin": "27AAGCP5108M1Z5",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "a2972900eac86f5156e06db10288d1ff76def76973b06688ee09c2f16a2043d4": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "7,160.46",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "6109",
+     "qty": "393",
+     "sku": "TEE-CTN-M",
+     "rate": "364.40",
+     "amount": "1,43,209.20",
+     "gstRate": "5%",
+     "description": "Cotton T-shirt, size M"
+    }
+   ],
+   "charges": [
+    {
+     "label": "IGST",
+     "amount": "7,160.46"
+    },
+    {
+     "label": "Rounding",
+     "amount": "0.34"
+    }
+   ],
+   "currency": "INR",
+   "poNumber": "PO/KN/2402",
+   "roundOff": "0.34",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "1,50,370.00",
+   "invoiceDate": "03-09-2026",
+   "supplierName": "Loomcraft Apparel",
+   "amountInWords": "Rupees One Lakh Fifty Thousand Three Hundred Seventy Only",
+   "invoiceNumber": "S3/26-27/1002",
+   "supplierGstin": "33AAJFL7731C1ZJ",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "1a45516ef2d959909d46b243a63c3d21a9f90032ee3b79357be7afd63d806528": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "10,935.00",
+   "igst": "",
+   "sgst": "10,935.00",
+   "lines": [
+    {
+     "hsn": "9983",
+     "qty": "27",
+     "sku": "AUD-HR",
+     "rate": "4,500.00",
+     "amount": "1,21,500.00",
+     "gstRate": "18%",
+     "description": "Audit support services (per hour)"
+    }
+   ],
+   "charges": [
+    {
+     "label": "CGST",
+     "amount": "10,935.00"
+    },
+    {
+     "label": "SGST",
+     "amount": "10,935.00"
+    },
+    {
+     "label": "R/O",
+     "amount": "0.00"
+    }
+   ],
+   "currency": "INR",
+   "poNumber": "PO/KN/2404",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "1,43,370.00",
+   "invoiceDate": "05-09-2026",
+   "supplierName": "Ledgerwise Consulting LLP",
+   "amountInWords": "Rupees One Lakh Forty Four Thousand Twenty Six Only",
+   "invoiceNumber": "S5/26-27/1004",
+   "supplierGstin": "29AAHFL3302B1ZT",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "89ef896ae319e4ca6d59755d943a3c829ac298cb6530a1fbbc96b205295b7eee": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "35,010.00",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "9983",
+     "qty": "2",
+     "sku": "FTL-BLR-MUM",
+     "rate": "42,000.00",
+     "amount": "84,000.00",
+     "gstRate": "18%",
+     "description": "Full truck load, Bengaluru to Mumbai"
+    },
+    {
+     "hsn": "9983",
+     "qty": "17",
+     "sku": "LTL-PALLET",
+     "rate": "6,500.00",
+     "amount": "1,10,500.00",
+     "gstRate": "18%",
+     "description": "Part load, per pallet"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2405",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.99,
+   "grandTotal": "2,29,510.00",
+   "invoiceDate": "06-09-2026",
+   "supplierName": "Harborline Freight",
+   "amountInWords": "Rupees Two Lakh Twenty Nine Thousand Five Hundred Ten Only",
+   "invoiceNumber": "S6/26-27/1005",
+   "supplierGstin": "27AABCH6624H1ZM",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "45a4293f2faa2052aaf80042ce5aa7081a6093ccefd32bba9096279617b1c8e2": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "9,889.20",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "6109",
+     "qty": "187",
+     "sku": "TEE-CTN-L",
+     "rate": "369.00",
+     "amount": "69,003.00",
+     "gstRate": "5%",
+     "description": "Cotton T-shirt, size L"
+    },
+    {
+     "hsn": "6109",
+     "qty": "369",
+     "sku": "TEE-CTN-M",
+     "rate": "349.00",
+     "amount": "1,28,781.00",
+     "gstRate": "5%",
+     "description": "Cotton T-shirt, size M"
+    }
+   ],
+   "charges": [
+    {
+     "label": "Handling charges",
+     "amount": "3,960.68"
+    }
+   ],
+   "currency": "INR",
+   "poNumber": "PO/KN/2408",
+   "roundOff": "0.12",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.99,
+   "grandTotal": "2,11,634.00",
+   "invoiceDate": "09-09-2026",
+   "supplierName": "Loomcraft Apparel",
+   "amountInWords": "Rupees Two Lakh Eleven Thousand Six Hundred Thirty Four Only",
+   "invoiceNumber": "S3/26-27/1008",
+   "supplierGstin": "33AAJFL7731C1ZJ",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "441f577c6f8e44498bcad38bc87bcbe0745d3f8af010869d03d985f8926a708a": {
+  "model": "qwen/qwen3.8-27b",
+  "result": {
+   "cgst": "12,564.80",
+   "igst": "",
+   "sgst": "12,564.80",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "29",
+     "sku": "AUD-HR",
+     "rate": "4,814.10",
+     "amount": "1,39,608.90",
+     "gstRate": "18%",
+     "description": "Audit support services (per hour)"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2410",
+   "roundOff": "0.50",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.95,
+   "grandTotal": "1,64,739.00",
+   "invoiceDate": "11-09-2026",
+   "supplierName": "Ledgerwise Consulting LLP",
+   "amountInWords": "Rupees One Lakh Sixty Four Thousand Seven Hundred Thirty Nine Only",
+   "invoiceNumber": "S5/26-27/1010",
+   "supplierGstin": "29AAHFL3302B1ZT",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "4d562931eb32ef70fe31cff3da902e9892f5ecb3a733e68c13c645572e2828fd": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "68,760.00",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "9983",
+     "qty": "20",
+     "sku": "LTL-PALLET",
+     "rate": "6,500.00",
+     "amount": "1,30,000.00",
+     "gstRate": "18%",
+     "description": "Part load, per pallet"
+    },
+    {
+     "hsn": "9983",
+     "qty": "6",
+     "sku": "FTL-BLR-MUM",
+     "rate": "42,000.00",
+     "amount": "2,52,000.00",
+     "gstRate": "18%",
+     "description": "Full truck load, Bengaluru to Mumbai"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2411",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "4,50,760.00",
+   "invoiceDate": "12-09-2026",
+   "supplierName": "Harborline Freight",
+   "amountInWords": "Rupees Four Lakh Fifty Thousand Seven Hundred Sixty Only",
+   "invoiceNumber": "S6/26-27/1011",
+   "supplierGstin": "27AABCH6624H1ZM",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "733711d48899af0a2166b634342d9414b0a775c80d346a146627e2df83d2c46b": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "7,470.90",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "3923",
+     "qty": "1754",
+     "sku": "MAILER-A4",
+     "rate": "12.50",
+     "amount": "21,925.00",
+     "gstRate": "18%",
+     "description": "Poly mailer bag, A4"
+    },
+    {
+     "hsn": "3923",
+     "qty": "22",
+     "sku": "BUBBLE-100",
+     "rate": "890.00",
+     "amount": "19,580.00",
+     "gstRate": "18%",
+     "description": "Bubble wrap roll, 100 m"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2409",
+   "roundOff": "0.10",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "48,976.00",
+   "invoiceDate": "10-09-2026",
+   "supplierName": "PolyPack Industries",
+   "amountInWords": "Rupees Forty Eight Thousand Nine Hundred Seventy Six Only",
+   "invoiceNumber": "S4/26-27/1009",
+   "supplierGstin": "27AAGCP5108M1Z5",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "96a4be253a2da6fc8db28b03ef5ae24e747250cc8646d2fb6d3c79e011b74476": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "15,624.85",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "0910",
+     "qty": "3",
+     "sku": "CARD-GRN-10",
+     "rate": "23,999.00",
+     "amount": "71,997.00",
+     "gstRate": "5%",
+     "description": "Green Cardamom, 10 kg"
+    },
+    {
+     "hsn": "0910",
+     "qty": "13",
+     "sku": "PEP-BLK-25",
+     "rate": "18,500.00",
+     "amount": "2,40,500.00",
+     "gstRate": "5%",
+     "description": "Black Pepper, 25 kg bag"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2413",
+   "roundOff": "0.15",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "3,28,122.00",
+   "invoiceDate": "14-09-2026",
+   "supplierName": "Saffron Spice Traders",
+   "amountInWords": "Rupees Three Lakh Twenty Eight Thousand One Hundred Twenty Two Only",
+   "invoiceNumber": "S2/26-27/1013",
+   "supplierGstin": "32ABKFS2290Q1ZM",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "3a537db8e08b9535f1a9a334c6dad603dc1bf39d6d31668a8023bcc5033099d8": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "3,594.70",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "6109",
+     "qty": "206",
+     "sku": "TEE-CTN-M",
+     "rate": "349.00",
+     "amount": "71,894.00",
+     "gstRate": "5%",
+     "description": "Cotton T-shirt, size M"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2414",
+   "roundOff": "0.30",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "75,489.00",
+   "invoiceDate": "15-09-2026",
+   "supplierName": "Loomcraft Apparel",
+   "amountInWords": "Rupees Seventy Five Thousand Four Hundred Eighty Nine Only",
+   "invoiceNumber": "S3/26-27/1014",
+   "supplierGstin": "33AAJFL7731C1ZJ",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "385f8a8374d725329fbd7fbf1ce6576e5277e44a0ea91dea0d60b12c46af8891": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "20,881.84",
+   "igst": "",
+   "sgst": "20,881.84",
+   "lines": [
+    {
+     "hsn": "8504",
+     "qty": "10",
+     "sku": "PSU-650",
+     "rate": "5,120.00",
+     "amount": "51,200.00",
+     "gstRate": "28%",
+     "description": "Power Supply 650 W"
+    },
+    {
+     "hsn": "8471",
+     "qty": "24",
+     "sku": "RAM-16",
+     "rate": "2,899.00",
+     "amount": "69,576.00",
+     "gstRate": "18%",
+     "description": "DDR5 RAM 16 GB"
+    },
+    {
+     "hsn": "8471",
+     "qty": "24",
+     "sku": "SSD-512",
+     "rate": "3,450.00",
+     "amount": "82,800.00",
+     "gstRate": "18%",
+     "description": "NVMe SSD 512 GB"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2406",
+   "roundOff": "0.32",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.99,
+   "grandTotal": "2,45,340.00",
+   "invoiceDate": "07-09-2026",
+   "supplierName": "Nimbus Components Pvt Ltd",
+   "amountInWords": "Rupees Two Lakh Forty Five Thousand Three Hundred Forty Only",
+   "invoiceNumber": "S1/26-27/1006",
+   "supplierGstin": "29AADCN4417K1Z8",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "e13776ebfec6a1c6f52febc03185de60e5f5bc851ff59bda68f214fd03206de4": {
+  "model": "qwen/qwen3.8-27b",
+  "result": {
+   "cgst": "10,869.84",
+   "igst": "",
+   "sgst": "10,869.84",
+   "lines": [
+    {
+     "hsn": "8504",
+     "qty": "10",
+     "sku": "PSU-650",
+     "rate": "5,120.00",
+     "amount": "51,200.00",
+     "gstRate": "18%",
+     "description": "Power Supply 650 W"
+    },
+    {
+     "hsn": "8471",
+     "qty": "24",
+     "sku": "RAM-16",
+     "rate": "2,899.00",
+     "amount": "69,576.00",
+     "gstRate": "18%",
+     "description": "DDR5 RAM 16 GB"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2418",
+   "roundOff": "0.32",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.95,
+   "grandTotal": "1,42,532.00",
+   "invoiceDate": "19-09-2026",
+   "supplierName": "Nimbus Components Pvt Ltd",
+   "amountInWords": "Rupees One Lakh Forty Two Thousand Five Hundred Thirty Two Only",
+   "invoiceNumber": "S1/26-27/1018",
+   "supplierGstin": "29AADCN4417K1Z8",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "fb4d1d689834f0aba9d4c1967534ac9b103aa035c9400a95d5ca099be11619e5": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "5,550.00",
+   "igst": "",
+   "sgst": "5,550.00",
+   "lines": [
+    {
+     "hsn": "0910",
+     "qty": "12",
+     "sku": "PEP-BLK-25",
+     "rate": "18,500.00",
+     "amount": "2,22,000.00",
+     "gstRate": "5%",
+     "description": "Black Pepper, 25 kg bag"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2419",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.99,
+   "grandTotal": "2,33,100.00",
+   "invoiceDate": "20-09-2026",
+   "supplierName": "Saffron Spice Traders",
+   "amountInWords": "Rupees Two Lakh Thirty Three Thousand One Hundred Only",
+   "invoiceNumber": "S2/26-27/1019",
+   "supplierGstin": "32ABKFS2290Q1ZM",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "a560cd83829f1dc74cf0d09e0a380d9d886fdf62cc2f89245d99860f1954e784": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "1,971.85",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "6109",
+     "qty": "113",
+     "sku": "TEE-CTN-M",
+     "rate": "349.00",
+     "amount": "39,437.00",
+     "gstRate": "5%",
+     "description": "Cotton T-shirt, size M"
+    }
+   ],
+   "charges": [
+    {
+     "label": "IGST",
+     "amount": "1,971.85"
+    },
+    {
+     "label": "Rounding",
+     "amount": "0.15"
+    }
+   ],
+   "currency": "INR",
+   "poNumber": "PO/KN/2420",
+   "roundOff": "0.15",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "41,409.00",
+   "invoiceDate": "21-09-2026",
+   "supplierName": "Loomcraft Apparel",
+   "amountInWords": "Rupees Forty One Thousand Four Hundred Nine Only",
+   "invoiceNumber": "S3/26-27/1020",
+   "supplierGstin": "33AAJFL7731C1ZJ",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "dabcb7dfe37fad6310792d40d0d33aadb8a96fdf6ec076f141d59f621fe2cfba": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "9,585.00",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "3923",
+     "qty": "1768",
+     "sku": "MAILER-A4",
+     "rate": "12.50",
+     "amount": "22,100.00",
+     "gstRate": "18%",
+     "description": "Poly mailer bag, A4"
+    },
+    {
+     "hsn": "3923",
+     "qty": "35",
+     "sku": "BUBBLE-100",
+     "rate": "890.00",
+     "amount": "31,150.00",
+     "gstRate": "18%",
+     "description": "Bubble wrap roll, 100 m"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2421",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "62,835.00",
+   "invoiceDate": "22-09-2026",
+   "supplierName": "PolyPack Industries",
+   "amountInWords": "Rupees Sixty Two Thousand Eight Hundred Thirty Five Only",
+   "invoiceNumber": "S4/26-27/1021",
+   "supplierGstin": "27AAGCP5108M1Z5",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "08d9e20a44fd76ed559dd60b911afd5cfefaf220b3a89e2dbfa83dcf8f64548c": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "6,099.90",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "0910",
+     "qty": "4",
+     "sku": "PEP-BLK-25",
+     "rate": "18,500.00",
+     "amount": "74,000.00",
+     "gstRate": "5%",
+     "description": "Black Pepper, 25 kg bag"
+    },
+    {
+     "hsn": "0910",
+     "qty": "2",
+     "sku": "CARD-GRN-10",
+     "rate": "23,999.00",
+     "amount": "47,998.00",
+     "gstRate": "5%",
+     "description": "Green Cardamom, 10 kg"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2407",
+   "roundOff": "0.10",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "1,28,098.00",
+   "invoiceDate": "08-09-2026",
+   "supplierName": "Saffron Spice Traders",
+   "amountInWords": "Rupees One Lakh Twenty Eight Thousand Ninety Eight Only",
+   "invoiceNumber": "S2/26-27/1007",
+   "supplierGstin": "32ABKFS2290Q1ZM",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "224022489377a48800e5539fca008b975f2245279014043354e74b51c6297912": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "23,400.00",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "9983",
+     "qty": "20",
+     "sku": "LTL-PALLET",
+     "rate": "6,500.00",
+     "amount": "1,30,000.00",
+     "gstRate": "18%",
+     "description": "Part load, per pallet"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2423",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "1,53,400.00",
+   "invoiceDate": "24-09-2026",
+   "supplierName": "Harborline Freight",
+   "amountInWords": "Rupees One Lakh Fifty Three Thousand Four Hundred Only",
+   "invoiceNumber": "S6/26-27/1023",
+   "supplierGstin": "27AABCH6624H1ZM",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "623d251fbc46b2b94392d3234132a59b8e558d29275e169cf2197e3171264197": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "7,141.50",
+   "igst": "",
+   "sgst": "7,141.50",
+   "lines": [
+    {
+     "hsn": "8471",
+     "qty": "23",
+     "sku": "SSD-512",
+     "rate": "3,450.00",
+     "amount": "79,350.00",
+     "gstRate": "18%",
+     "description": "NVMe SSD 512 GB"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2424",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "93,672.00",
+   "invoiceDate": "25-09-2026",
+   "supplierName": "Nimbus Components Pvt Ltd",
+   "amountInWords": "Rupees Ninety Three Thousand Six Hundred Seventy Two Only",
+   "invoiceNumber": "S1/26-27/1024",
+   "supplierGstin": "29AADCN4417K1Z8",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "af81e063e4667437fb3398fb7af84d562b275aa519a6f67ca100421a2cd9c39b": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "6,075.00",
+   "igst": "",
+   "sgst": "6,075.00",
+   "lines": [
+    {
+     "hsn": "9983",
+     "qty": "15",
+     "sku": "AUD-HR",
+     "rate": "4,500.00",
+     "amount": "67,500.00",
+     "gstRate": "18%",
+     "description": "Audit support services (per hour)"
+    }
+   ],
+   "charges": [
+    {
+     "label": "CGST",
+     "amount": "6,075.00"
+    },
+    {
+     "label": "SGST",
+     "amount": "6,075.00"
+    },
+    {
+     "label": "R/O",
+     "amount": "0.00"
+    }
+   ],
+   "currency": "INR",
+   "poNumber": "PO/KN/2422",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "79,650.00",
+   "invoiceDate": "23-09-2026",
+   "supplierName": "Ledgerwise Consulting LLP",
+   "amountInWords": "Rupees Seventy Nine Thousand Six Hundred Fifty Only",
+   "invoiceNumber": "S5/26-27/1022",
+   "supplierGstin": "29AAHFL3302B1ZT",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "585f3464a2c941322bbadd54739e1e1eaa6cdc154d761c62b7c549e2513af4c6": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "2,232.45",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "6109",
+     "qty": "121",
+     "sku": "TEE-CTN-L",
+     "rate": "369.00",
+     "amount": "44,649.00",
+     "gstRate": "5%",
+     "description": "Cotton T-shirt, size L"
+    }
+   ],
+   "charges": [
+    {
+     "label": "IGST",
+     "amount": "2,232.45"
+    }
+   ],
+   "currency": "INR",
+   "poNumber": "PO/KN/2426",
+   "roundOff": "-0.45",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "46,881.00",
+   "invoiceDate": "27-09-2026",
+   "supplierName": "Loomcraft Apparel",
+   "amountInWords": "Rupees Forty Six Thousand Eight Hundred Eighty One Only",
+   "invoiceNumber": "S3/26-27/1026",
+   "supplierGstin": "33AAJFL7731C1ZJ",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "43f1c4f66af0c5758bfa593ec154d35af500adb2f322bbe7842892c2d5fb41aa": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "1,462.50",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "3923",
+     "qty": "650",
+     "sku": "MAILER-A4",
+     "rate": "12.50",
+     "amount": "8,125.00",
+     "gstRate": "18%",
+     "description": "Poly mailer bag, A4"
+    }
+   ],
+   "charges": [
+    {
+     "label": "IGST",
+     "amount": "1,462.50"
+    },
+    {
+     "label": "Rounding",
+     "amount": "0.50"
+    }
+   ],
+   "currency": "INR",
+   "poNumber": "PO/KN/2427",
+   "roundOff": "0.50",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.99,
+   "grandTotal": "9,588.00",
+   "invoiceDate": "28-09-2026",
+   "supplierName": "PolyPack Industries",
+   "amountInWords": "Rupees Nine Thousand Five Hundred Eighty Eight Only",
+   "invoiceNumber": "S4/26-27/1027",
+   "supplierGstin": "27AAGCP5108M1Z5",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "58a62310453eaf7497104dbaef6215b39601b64dac2c9a38fe16dcd32fb9cf2c": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "15,390.00",
+   "igst": "",
+   "sgst": "15,390.00",
+   "lines": [
+    {
+     "hsn": "9983",
+     "qty": "38",
+     "sku": "AUD-HR",
+     "rate": "4,500.00",
+     "amount": "1,71,000.00",
+     "gstRate": "18%",
+     "description": "Audit support services (per hour)"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2428",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "2,01,780.00",
+   "invoiceDate": "29-09-2026",
+   "supplierName": "Ledgerwise Consulting LLP",
+   "amountInWords": "Rupees Two Lakh One Thousand Seven Hundred Eighty Only",
+   "invoiceNumber": "S5/26-27/1028",
+   "supplierGstin": "29AAHFL3302B1ZT",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "51a610da513e43661b7fb2da45208ff84745558d33ef06ab2c04c0acedbe75fb": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "32,670.00",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "9983",
+     "qty": "15",
+     "sku": "LTL-PALLET",
+     "rate": "6,500.00",
+     "amount": "97,500.00",
+     "gstRate": "18%",
+     "description": "Part load, per pallet"
+    },
+    {
+     "hsn": "9983",
+     "qty": "2",
+     "sku": "FTL-BLR-MUM",
+     "rate": "42,000.00",
+     "amount": "84,000.00",
+     "gstRate": "18%",
+     "description": "Full truck load, Bengaluru to Mumbai"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2429",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.99,
+   "grandTotal": "2,14,170.00",
+   "invoiceDate": "30-09-2026",
+   "supplierName": "Harborline Freight",
+   "amountInWords": "Rupees Two Lakh Fourteen Thousand One Hundred Seventy Only",
+   "invoiceNumber": "S6/26-27/1029",
+   "supplierGstin": "27AABCH6624H1ZM",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "63247bf02ac153444f1bea0e0ec08686b0d64e57b4a9adc1964fe32d4af21c02": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "17,962.56",
+   "igst": "",
+   "sgst": "17,962.56",
+   "lines": [
+    {
+     "hsn": "8471",
+     "qty": "35",
+     "sku": "SSD-512",
+     "rate": "3,450.00",
+     "amount": "1,20,750.00",
+     "gstRate": "18%",
+     "description": "NVMe SSD 512 GB"
+    },
+    {
+     "hsn": "8471",
+     "qty": "6",
+     "sku": "RAM-16",
+     "rate": "2,899.00",
+     "amount": "17,394.00",
+     "gstRate": "18%",
+     "description": "DDR5 RAM 16 GB"
+    },
+    {
+     "hsn": "8504",
+     "qty": "12",
+     "sku": "PSU-650",
+     "rate": "5,120.00",
+     "amount": "61,440.00",
+     "gstRate": "18%",
+     "description": "Power Supply 650 W"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2430",
+   "roundOff": "-0.12",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "2,35,509.00",
+   "invoiceDate": "01-10-2026",
+   "supplierName": "Nimbus Components Pvt Ltd",
+   "amountInWords": "Rupees Two Lakh Thirty Five Thousand Five Hundred Nine Only",
+   "invoiceNumber": "S1/26-27/1030",
+   "supplierGstin": "29AADCN4417K1Z8",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "ad56665c8a8fdd7ec57cbc41984e46ffe9ecec9c45ea7b5bb713f2a11015c2a0": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "12,025.00",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "0910",
+     "qty": "13",
+     "sku": "PEP-BLK-25",
+     "rate": "18,500.00",
+     "amount": "2,40,500.00",
+     "gstRate": "5%",
+     "description": "Black Pepper, 25 kg bag"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2425",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "2,52,525.00",
+   "invoiceDate": "26-09-2026",
+   "supplierName": "Saffron Spice Traders",
+   "amountInWords": "Rupees Two Lakh Fifty Two Thousand Five Hundred Twenty Five Only",
+   "invoiceNumber": "S2/26-27/1025",
+   "supplierGstin": "32ABKFS2290Q1ZM",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "c5705bf7420937f228d6c7661dca974b4380164adad0c123df7d3a64a5b4e572": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "3,409.20",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "6109",
+     "qty": "149",
+     "sku": "TEE-CTN-L",
+     "rate": "369.00",
+     "amount": "54,981.00",
+     "gstRate": "5%",
+     "description": "Cotton T-shirt, size L"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2432",
+   "roundOff": "-0.20",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "58,390.00",
+   "invoiceDate": "03-10-2026",
+   "supplierName": "Loomcraft Apparel",
+   "amountInWords": "Rupees Fifty Eight Thousand Three Hundred Ninety Only",
+   "invoiceNumber": "S3/26-27/1032",
+   "supplierGstin": "33AAJFL7731C1ZJ",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "0e23d5e45b2bc48dad19dc87237442002f88e6ab7d41d476d4115c53bcc164aa": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "14,697.27",
+   "igst": "",
+   "sgst": "14,697.27",
+   "lines": [
+    {
+     "hsn": "8504",
+     "qty": "3",
+     "sku": "PSU-650",
+     "rate": "5,120.00",
+     "amount": "15,360.00",
+     "gstRate": "18%",
+     "description": "Power Supply 650 W"
+    },
+    {
+     "hsn": "8471",
+     "qty": "7",
+     "sku": "RAM-16",
+     "rate": "2,899.00",
+     "amount": "20,293.00",
+     "gstRate": "18%",
+     "description": "DDR5 RAM 16 GB"
+    },
+    {
+     "hsn": "8471",
+     "qty": "37",
+     "sku": "SSD-512",
+     "rate": "3,450.00",
+     "amount": "1,27,650.00",
+     "gstRate": "18%",
+     "description": "NVMe SSD 512 GB"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2412",
+   "roundOff": "0.46",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.99,
+   "grandTotal": "1,92,698.00",
+   "invoiceDate": "13-09-2026",
+   "supplierName": "Nimbus Components Pvt Ltd",
+   "amountInWords": "Rupees One Lakh Ninety Two Thousand Six Hundred Ninety Eight Only",
+   "invoiceNumber": "S1/26-27/1012",
+   "supplierGstin": "29AADCN4417K1Z8",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "a93c52101a9e84fcc04a40a2891bfbddd78e504430ea2a37d04cccc7a6f01d28": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "61,740.00",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "9983",
+     "qty": "6",
+     "sku": "FTL-BLR-MUM",
+     "rate": "42,000.00",
+     "amount": "2,52,000.00",
+     "gstRate": "18%",
+     "description": "Full truck load, Bengaluru to Mumbai"
+    },
+    {
+     "hsn": "9983",
+     "qty": "14",
+     "sku": "LTL-PALLET",
+     "rate": "6,500.00",
+     "amount": "91,000.00",
+     "gstRate": "18%",
+     "description": "Part load, per pallet"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2435",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.99,
+   "grandTotal": "4,04,740.00",
+   "invoiceDate": "06-10-2026",
+   "supplierName": "Harborline Freight",
+   "amountInWords": "Rupees Four Lakh Five Thousand Three Hundred Seventy Five Only",
+   "invoiceNumber": "S6/26-27/1035",
+   "supplierGstin": "27AABCH6624H1ZM",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "02fe238653cbbde7f0915ec95ac74971569bf51d4b69c0c9fccd6f2304f42af6": {
+  "model": "qwen/qwen3.8-27b",
+  "result": {
+   "cgst": "3,726.00",
+   "igst": "",
+   "sgst": "3,726.00",
+   "lines": [
+    {
+     "hsn": "8471",
+     "qty": "12",
+     "sku": "SSD-512",
+     "rate": "3,450.00",
+     "amount": "41,400.00",
+     "gstRate": "18%",
+     "description": "NVMe SSD 512 GB"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2436",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.95,
+   "grandTotal": "48,852.00",
+   "invoiceDate": "07-10-2026",
+   "supplierName": "Nimbus Components Pvt Ltd",
+   "amountInWords": "Rupees Forty Eight Thousand Eight Hundred Fifty Two Only",
+   "invoiceNumber": "S1/26-27/1036",
+   "supplierGstin": "29AADCN4417K1Z8",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "395039c1d459ac4d3eb61ec28ff10fbd0b30ad88699810397d10264dc121d132": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "16,999.60",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "0910",
+     "qty": "8",
+     "sku": "PEP-BLK-25",
+     "rate": "18,500.00",
+     "amount": "1,48,000.00",
+     "gstRate": "5%",
+     "description": "Black Pepper, 25 kg bag"
+    },
+    {
+     "hsn": "0910",
+     "qty": "8",
+     "sku": "CARD-GRN-10",
+     "rate": "23,999.00",
+     "amount": "1,91,992.00",
+     "gstRate": "5%",
+     "description": "Green Cardamom, 10 kg"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2437",
+   "roundOff": "0.40",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "3,56,992.00",
+   "invoiceDate": "08-10-2026",
+   "supplierName": "Saffron Spice Traders",
+   "amountInWords": "Rupees Three Lakh Fifty Six Thousand Nine Hundred Ninety Two Only",
+   "invoiceNumber": "S2/26-27/1037",
+   "supplierGstin": "32ABKFS2290Q1ZM",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "2d4a155d547e4e264a4b8f7f1a99936ad02ab5ff1bcf54cbb4d4b4d060390a12": {
+  "model": "qwen/qwen3.8-27b",
+  "result": {
+   "cgst": "",
+   "igst": "8,692.71",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "6109",
+     "qty": "204",
+     "sku": "TEE-CTN-M",
+     "rate": "349.00",
+     "amount": "71,196.00",
+     "gstRate": "5%",
+     "description": "Cotton T-shirt, size M"
+    },
+    {
+     "hsn": "6109",
+     "qty": "187",
+     "sku": "TEE-CTN-L",
+     "rate": "369.00",
+     "amount": "69,003.00",
+     "gstRate": "5%",
+     "description": "Cotton T-shirt, size L"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2438",
+   "roundOff": "0.29",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.95,
+   "grandTotal": "1,48,892.00",
+   "invoiceDate": "09-10-2026",
+   "supplierName": "Loomcraft Apparel",
+   "amountInWords": "Rupees One Lakh Forty Eight Thousand Eight Hundred Ninety Two Only",
+   "invoiceNumber": "S3/26-27/1038",
+   "supplierGstin": "33AAJFL7731C1ZJ",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "fcaba0b19fb76e3ec23c8b8a000c74ecce5073dc0d9016baf7f815ac5abd12f4": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "6,734.25",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "3923",
+     "qty": "2993",
+     "sku": "MAILER-A4",
+     "rate": "12.50",
+     "amount": "37,412.50",
+     "gstRate": "18%",
+     "description": "Poly mailer bag, A4"
+    }
+   ],
+   "charges": [
+    {
+     "label": "IGST",
+     "amount": "6,734.25"
+    },
+    {
+     "label": "Rounding",
+     "amount": "0.25"
+    }
+   ],
+   "currency": "INR",
+   "poNumber": "PO/KN/2439",
+   "roundOff": "0.25",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "44,147.00",
+   "invoiceDate": "10-10-2026",
+   "supplierName": "PolyPack Industries",
+   "amountInWords": "Rupees Forty Four Thousand One Hundred Forty Seven Only",
+   "invoiceNumber": "S4/26-27/1039",
+   "supplierGstin": "27AAGCP5108M1Z5",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "81ac97941fcd63206e721f59f3ab55658642e4f7706323da0d2f3e91f7e73636": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "11,340.00",
+   "igst": "",
+   "sgst": "11,340.00",
+   "lines": [
+    {
+     "hsn": "9983",
+     "qty": "28",
+     "sku": "AUD-HR",
+     "rate": "4,500.00",
+     "amount": "1,26,000.00",
+     "gstRate": "18%",
+     "description": "Audit support services (per hour)"
+    }
+   ],
+   "charges": [
+    {
+     "label": "CGST",
+     "amount": "11,340.00"
+    },
+    {
+     "label": "SGST",
+     "amount": "11,340.00"
+    },
+    {
+     "label": "R/O",
+     "amount": "0.00"
+    }
+   ],
+   "currency": "INR",
+   "poNumber": "PO/KN/2440",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "1,48,680.00",
+   "invoiceDate": "11-10-2026",
+   "supplierName": "Ledgerwise Consulting LLP",
+   "amountInWords": "Rupees One Lakh Forty Eight Thousand Six Hundred Eighty Only",
+   "invoiceNumber": "S5/26-27/1040",
+   "supplierGstin": "29AAHFL3302B1ZT",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "b8501ea222282b56f054132df94583f2e6d5501c8790bb5843345eb5f04c8357": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "22,680.00",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "9983",
+     "qty": "3",
+     "sku": "FTL-BLR-MUM",
+     "rate": "42,000.00",
+     "amount": "1,26,000.00",
+     "gstRate": "18%",
+     "description": "Full truck load, Bengaluru to Mumbai"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2441",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "1,48,680.00",
+   "invoiceDate": "12-10-2026",
+   "supplierName": "Harborline Freight",
+   "amountInWords": "Rupees One Lakh Forty Eight Thousand Six Hundred Eighty Only",
+   "invoiceNumber": "S6/26-27/1041",
+   "supplierGstin": "27AABCH6624H1ZM",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "92de5740df4723e72c851972c6ddd07c88178cb06da58e3675c683acae019d0b": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "28,860.00",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "0910",
+     "qty": "13",
+     "sku": "PEP-BLK-25",
+     "rate": "18,500.00",
+     "amount": "2,40,500.00",
+     "gstRate": "12%",
+     "description": "Black Pepper, 25 kg bag"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2443",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.99,
+   "grandTotal": "2,69,360.00",
+   "invoiceDate": "14-10-2026",
+   "supplierName": "Saffron Spice Traders",
+   "amountInWords": "Rupees Two Lakh Sixty Nine Thousand Three Hundred Sixty Only",
+   "invoiceNumber": "S2/26-27/1043",
+   "supplierGstin": "32ABKFS2290Q1ZM",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "6a430b1f82248d7071cc55a2cfb981a70aa75df859b865a19749dae24acb5368": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "15,342.30",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "3923",
+     "qty": "34",
+     "sku": "BUBBLE-100",
+     "rate": "890.00",
+     "amount": "30,260.00",
+     "gstRate": "18%",
+     "description": "Bubble wrap roll, 100 m"
+    },
+    {
+     "hsn": "3923",
+     "qty": "4398",
+     "sku": "MAILER-A4",
+     "rate": "12.50",
+     "amount": "54,975.00",
+     "gstRate": "18%",
+     "description": "Poly mailer bag, A4"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2433",
+   "roundOff": "-0.30",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "1,00,577.00",
+   "invoiceDate": "04-10-2026",
+   "supplierName": "PolyPack Industries",
+   "amountInWords": "Rupees One Lakh Five Hundred Seventy Seven Only",
+   "invoiceNumber": "S4/26-27/1033",
+   "supplierGstin": "27AAGCP5108M1Z5",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "00f6e62cd8701be028fc5bc4dd5fe2cec63d8fa40618ff84fe4c6405beea219f": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "12,946.50",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "3923",
+     "qty": "40",
+     "sku": "BUBBLE-100",
+     "rate": "890.00",
+     "amount": "35,600.00",
+     "gstRate": "18%",
+     "description": "Bubble wrap roll, 100 m"
+    },
+    {
+     "hsn": "3923",
+     "qty": "2906",
+     "sku": "MAILER-A4",
+     "rate": "12.50",
+     "amount": "36,325.00",
+     "gstRate": "18%",
+     "description": "Poly mailer bag, A4"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2445",
+   "roundOff": "0.50",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "84,872.00",
+   "invoiceDate": "16-10-2026",
+   "supplierName": "PolyPack Industries",
+   "amountInWords": "Rupees Eighty Four Thousand Eight Hundred Seventy Two Only",
+   "invoiceNumber": "S4/26-27/1045",
+   "supplierGstin": "27AAGCP5108M1Z5",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "ca8db5730022d85b6e12e5fed02ce59faae8e38bf9945a0f26511dd88e92a0b3": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "4,095.90",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "6109",
+     "qty": "222",
+     "sku": "TEE-CTN-L",
+     "rate": "369.00",
+     "amount": "81,918.00",
+     "gstRate": "5%",
+     "description": "Cotton T-shirt, size L"
+    }
+   ],
+   "charges": [
+    {
+     "label": "IGST",
+     "amount": "4,095.90"
+    }
+   ],
+   "currency": "INR",
+   "poNumber": "PO/KN/2444",
+   "roundOff": "0.10",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.99,
+   "grandTotal": "86,014.00",
+   "invoiceDate": "15-10-2026",
+   "supplierName": "Loomcraft Apparel",
+   "amountInWords": "Rupees Eighty Six Thousand Fourteen Only",
+   "invoiceNumber": "S3/26-27/1044",
+   "supplierGstin": "33AAJFL7731C1ZA",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "103193f607f62695b301f0f2b428b1c16ea50b53c0025ea76fe3d6a66feb60b2": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "2,340.00",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "9983",
+     "qty": "2",
+     "sku": "LTL-PALLET",
+     "rate": "6,500.00",
+     "amount": "13,000.00",
+     "gstRate": "18%",
+     "description": "Part load, per pallet"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2447",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "15,340.00",
+   "invoiceDate": "18-10-2026",
+   "supplierName": "Harborline Freight",
+   "amountInWords": "Rupees Fifteen Thousand Three Hundred Forty Only",
+   "invoiceNumber": "S6/26-27/1047",
+   "supplierGstin": "27AABCH6624H1ZA",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "a8531733fce308efa19a03d9fe39f202fab45bc5c13eb57cfacf7cef14cee66f": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "4,050.00",
+   "igst": "",
+   "sgst": "4,050.00",
+   "lines": [
+    {
+     "hsn": "9983",
+     "qty": "10",
+     "sku": "AUD-HR",
+     "rate": "4,500.00",
+     "amount": "45,000.00",
+     "gstRate": "18%",
+     "description": "Audit support services (per hour)"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2446",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "53,100.00",
+   "invoiceDate": "17-10-2026",
+   "supplierName": "Ledgerwise Consulting LLP",
+   "amountInWords": "Rupees Fifty Three Thousand One Hundred Only",
+   "invoiceNumber": "S5/26-27/1046",
+   "supplierGstin": "29AAHFL3302B1ZT",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "51f5984921b9d633daf705b828bee302d106b0abe0a32962423361fe931ce8d0": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "11,999.50",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "0910",
+     "qty": "10",
+     "sku": "CARD-GRN-10",
+     "rate": "23,999.00",
+     "amount": "2,39,990.00",
+     "gstRate": "5%",
+     "description": "Green Cardamom, 10 kg"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2431",
+   "roundOff": "0.50",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.99,
+   "grandTotal": "2,51,990.00",
+   "invoiceDate": "02-10-2026",
+   "supplierName": "Saffron Spice Traders",
+   "amountInWords": "Rupees Two Lakh Fifty One Thousand Nine Hundred Ninety Only",
+   "invoiceNumber": "S2/26-27/1031",
+   "supplierGstin": "32ABKFS2290Q1ZM",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "642b98bfa1a28e67978db5f8f622bbd0a3d3ac9cd69a48f6bb842256d4e3f98f": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "12,918.15",
+   "igst": "",
+   "sgst": "12,918.15",
+   "lines": [
+    {
+     "hsn": "8471",
+     "qty": "29",
+     "sku": "SSD-512",
+     "rate": "3,450.00",
+     "amount": "1,00,050.00",
+     "gstRate": "18%",
+     "description": "NVMe SSD 512 GB"
+    },
+    {
+     "hsn": "8471",
+     "qty": "15",
+     "sku": "RAM-16",
+     "rate": "2,899.00",
+     "amount": "43,485.00",
+     "gstRate": "18%",
+     "description": "DDR5 RAM 16 GB"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2442",
+   "roundOff": "-0.30",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "1,69,371.00",
+   "invoiceDate": "13-10-2026",
+   "supplierName": "Nimbus Components Pvt Ltd",
+   "amountInWords": "Rupees One Lakh Sixty Nine Thousand Three Hundred Seventy One Only",
+   "invoiceNumber": "S1/26-27/1042",
+   "supplierGstin": "29AADCN4417K1Z8",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "1bcc2e91f40f916b2a90d88982a1b6b54265f94fc0bbbc32d8dce1d4354e61a1": {
+  "model": "qwen/qwen3.8-27b",
+  "result": {
+   "cgst": "",
+   "igst": "",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "257",
+     "sku": "CLOUD-SEAT",
+     "rate": "52.56",
+     "amount": "13,507.92",
+     "gstRate": "",
+     "description": "Cloud workspace seat (monthly)"
+    },
+    {
+     "hsn": "",
+     "qty": "1",
+     "sku": "SUPPORT-PRO",
+     "rate": "1,200.00",
+     "amount": "1,200.00",
+     "gstRate": "",
+     "description": "Pro support plan (monthly)"
+    }
+   ],
+   "charges": [],
+   "currency": "USD",
+   "poNumber": "PO/NB/2400",
+   "roundOff": "",
+   "buyerGstin": "",
+   "confidence": 0.95,
+   "grandTotal": "14,707.92",
+   "invoiceDate": "2026-09-01",
+   "supplierName": "Cobalt Cloud Inc",
+   "amountInWords": "US Dollars Fourteen Thousand Seven Hundred Seventy and Ninety Two Cents Only",
+   "invoiceNumber": "S7/26-27/1000",
+   "supplierGstin": "",
+   "placeOfSupplyCode": ""
+  }
+ },
+ "e247455cf3f39137118cb2414eb39a2f30bd079c9cfd262b1fbeb6bfbaa6174e": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "5",
+     "sku": "TORQUE-KIT",
+     "rate": "189.99",
+     "amount": "949.95",
+     "gstRate": "",
+     "description": "Torque wrench kit"
+    },
+    {
+     "hsn": "",
+     "qty": "53",
+     "sku": "CALIPER-D",
+     "rate": "74.50",
+     "amount": "3,948.50",
+     "gstRate": "",
+     "description": "Digital caliper, 150 mm"
+    }
+   ],
+   "charges": [],
+   "currency": "USD",
+   "poNumber": "PO/NB/2403",
+   "roundOff": "",
+   "buyerGstin": "",
+   "confidence": 1,
+   "grandTotal": "4,898.45",
+   "invoiceDate": "2026-09-04",
+   "supplierName": "Meridian Tools LLC",
+   "amountInWords": "US Dollars Four Thousand Eight Hundred Ninety Eight and Forty Five Cents Only",
+   "invoiceNumber": "S8/26-27/1003",
+   "supplierGstin": "",
+   "placeOfSupplyCode": ""
+  }
+ },
+ "6a9c4d2b2eeee57a8f5991dd71306404cbafc289db27c3139de1df05b158927a": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "20",
+     "sku": "TORQUE-KIT",
+     "rate": "189.99",
+     "amount": "3,799.80",
+     "gstRate": "",
+     "description": "Torque wrench kit"
+    }
+   ],
+   "charges": [],
+   "currency": "USD",
+   "poNumber": "PO/NB/2405",
+   "roundOff": "",
+   "buyerGstin": "",
+   "confidence": 1,
+   "grandTotal": "3,799.80",
+   "invoiceDate": "2026-09-06",
+   "supplierName": "Meridian Tools LLC",
+   "amountInWords": "US Dollars Three Thousand Seven Hundred Ninety Nine and Eighty Cents Only",
+   "invoiceNumber": "S8/26-27/1005",
+   "supplierGstin": "",
+   "placeOfSupplyCode": ""
+  }
+ },
+ "c8b252c5fb4572e055cd38329c8956e4d770941ac166ff752129818de0491d8c": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "3",
+     "sku": "SUPPORT-PRO",
+     "rate": "1,200.00",
+     "amount": "3,600.00",
+     "gstRate": "",
+     "description": "Pro support plan (monthly)"
+    }
+   ],
+   "charges": [],
+   "currency": "USD",
+   "poNumber": "PO/NB/2406",
+   "roundOff": "",
+   "buyerGstin": "",
+   "confidence": 1,
+   "grandTotal": "3,600.00",
+   "invoiceDate": "2026-09-07",
+   "supplierName": "Cobalt Cloud Inc",
+   "amountInWords": "US Dollars Three Thousand Six Hundred Only",
+   "invoiceNumber": "S7/26-27/1006",
+   "supplierGstin": "",
+   "placeOfSupplyCode": ""
+  }
+ },
+ "4768b9853e0a60ca542e410201815023e92191ecadcc0b93a0a1f16219fbddee": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "27",
+     "sku": "CALIPER-D",
+     "rate": "74.50",
+     "amount": "2,011.50",
+     "gstRate": "",
+     "description": "Digital caliper, 150 mm"
+    },
+    {
+     "hsn": "",
+     "qty": "23",
+     "sku": "TORQUE-KIT",
+     "rate": "189.99",
+     "amount": "4,369.77",
+     "gstRate": "",
+     "description": "Torque wrench kit"
+    }
+   ],
+   "charges": [],
+   "currency": "USD",
+   "poNumber": "PO/NB/2407",
+   "roundOff": "",
+   "buyerGstin": "",
+   "confidence": 0.9,
+   "grandTotal": "6,381.27",
+   "invoiceDate": "2026-09-08",
+   "supplierName": "Meridian Tools LLC",
+   "amountInWords": "US Dollars Six Thousand Three Hundred Eighty One and Twenty Seven Cents Only",
+   "invoiceNumber": "S8/26-27/1007",
+   "supplierGstin": "",
+   "placeOfSupplyCode": ""
+  }
+ },
+ "0b7433527da6a966d468e1d0bb90ad9713f140089a455a3dd0ff3cc30e862289": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "1",
+     "sku": "SUPPORT-PRO",
+     "rate": "1,200.00",
+     "amount": "1,200.00",
+     "gstRate": "",
+     "description": "Pro support plan (monthly)"
+    },
+    {
+     "hsn": "",
+     "qty": "53",
+     "sku": "CLOUD-SEAT",
+     "rate": "49.00",
+     "amount": "2,597.00",
+     "gstRate": "",
+     "description": "Cloud workspace seat (monthly)"
+    }
+   ],
+   "charges": [],
+   "currency": "USD",
+   "poNumber": "PO/NB/2408",
+   "roundOff": "",
+   "buyerGstin": "",
+   "confidence": 0.9,
+   "grandTotal": "3,797.00",
+   "invoiceDate": "2026-09-09",
+   "supplierName": "Cobalt Cloud Inc",
+   "amountInWords": "US Dollars Three Thousand Seven Hundred Ninety Seven Only",
+   "invoiceNumber": "S7/26-27/1008",
+   "supplierGstin": "",
+   "placeOfSupplyCode": ""
+  }
+ },
+ "c978acf534d8a9e898bd8dce2a3eb34b7b39f456c5160093e286246bc6b292b8": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "6",
+     "sku": "",
+     "rate": "189.99",
+     "amount": "1,139.94",
+     "gstRate": "",
+     "description": "Torque wrench kit"
+    },
+    {
+     "hsn": "",
+     "qty": "33",
+     "sku": "",
+     "rate": "74.50",
+     "amount": "2,458.50",
+     "gstRate": "",
+     "description": "Digital caliper, 150 mm"
+    }
+   ],
+   "charges": [],
+   "currency": "USD",
+   "poNumber": "PO/NB/2409",
+   "roundOff": "",
+   "buyerGstin": "",
+   "confidence": 1,
+   "grandTotal": "3,598.44",
+   "invoiceDate": "2026-09-10",
+   "supplierName": "Meridian Tools LLC",
+   "amountInWords": "US Dollars Three Thousand Five Hundred Ninety Eight and Forty Four Cents Only",
+   "invoiceNumber": "S8/26-27/1009",
+   "supplierGstin": "",
+   "placeOfSupplyCode": ""
+  }
+ },
+ "d0bd87d527e7840b881f408ef72ff83825adb099bb8eb1faa0af99d0c77cd23a": {
+  "model": "qwen/qwen3.8-27b",
+  "result": {
+   "cgst": "",
+   "igst": "",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "3",
+     "sku": "SUPPORT-PRO",
+     "rate": "1,200.00",
+     "amount": "3,600.00",
+     "gstRate": "",
+     "description": "Pro support plan (monthly)"
+    },
+    {
+     "hsn": "",
+     "qty": "197",
+     "sku": "CLOUD-SEAT",
+     "rate": "49.00",
+     "amount": "9,653.00",
+     "gstRate": "",
+     "description": "Cloud workspace seat (monthly)"
+    }
+   ],
+   "charges": [],
+   "currency": "USD",
+   "poNumber": "PO/NB/2410",
+   "roundOff": "",
+   "buyerGstin": "",
+   "confidence": 0.95,
+   "grandTotal": "13,253.00",
+   "invoiceDate": "2026-09-11",
+   "supplierName": "Cobalt Cloud Inc",
+   "amountInWords": "US Dollars Thirteen Thousand Two Hundred Fifty Three Only",
+   "invoiceNumber": "S7/26-27/1010",
+   "supplierGstin": "",
+   "placeOfSupplyCode": ""
+  }
+ },
+ "d05197563c757df0bb8736734289a9b2931da80496564512fa81c62c78d42fa1": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "2",
+     "sku": "SUPPORT-PRO",
+     "rate": "1,200.00",
+     "amount": "2,400.00",
+     "gstRate": "",
+     "description": "Pro support plan (monthly)"
+    }
+   ],
+   "charges": [],
+   "currency": "USD",
+   "poNumber": "PO/NB/2404",
+   "roundOff": "",
+   "buyerGstin": "",
+   "confidence": 1,
+   "grandTotal": "2,400.00",
+   "invoiceDate": "2026-09-05",
+   "supplierName": "Cobalt Cloud Inc",
+   "amountInWords": "US Dollars Two Thousand Four Hundred Only",
+   "invoiceNumber": "S7/26-27/1004",
+   "supplierGstin": "",
+   "placeOfSupplyCode": ""
+  }
+ },
+ "383b33758baef567c58724275dc5d289c8a47af8c8004ee8927d9ad94c08150d": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "267",
+     "sku": "CLOUD-SEAT",
+     "rate": "49.00",
+     "amount": "13,083.00",
+     "gstRate": "",
+     "description": "Cloud workspace seat (monthly)"
+    }
+   ],
+   "charges": [],
+   "currency": "USD",
+   "poNumber": "PO/NB/2412",
+   "roundOff": "",
+   "buyerGstin": "",
+   "confidence": 0.9,
+   "grandTotal": "13,083.00",
+   "invoiceDate": "2026-09-13",
+   "supplierName": "Cobalt Cloud Inc",
+   "amountInWords": "US Dollars Thirteen Thousand Eighty Three Only",
+   "invoiceNumber": "S7/26-27/1012",
+   "supplierGstin": "",
+   "placeOfSupplyCode": ""
+  }
+ },
+ "c36fb75475712a5adf697ffbbcb8148908ada4fa98b8220801716842c381525b": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "14",
+     "sku": "CALIPER-D",
+     "rate": "74.50",
+     "amount": "1,043.00",
+     "gstRate": "",
+     "description": "Digital caliper, 150 mm"
+    }
+   ],
+   "charges": [],
+   "currency": "USD",
+   "poNumber": "PO/NB/2413",
+   "roundOff": "",
+   "buyerGstin": "",
+   "confidence": 0.9,
+   "grandTotal": "1,043.00",
+   "invoiceDate": "2026-09-14",
+   "supplierName": "Meridian Tools LLC",
+   "amountInWords": "US Dollars One Thousand Forty Three Only",
+   "invoiceNumber": "S8/26-27/1013",
+   "supplierGstin": "",
+   "placeOfSupplyCode": ""
+  }
+ },
+ "3c7fc3cff1eb11afca26e58ee823fcb8eab2b94cfbf3b14e10dc7efa5e748ea6": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "167",
+     "sku": "CLOUD-SEAT",
+     "rate": "49.00",
+     "amount": "8,183.00",
+     "gstRate": "",
+     "description": "Cloud workspace seat (monthly)"
+    }
+   ],
+   "charges": [],
+   "currency": "USD",
+   "poNumber": "PO/NB/2402",
+   "roundOff": "",
+   "buyerGstin": "",
+   "confidence": 1,
+   "grandTotal": "8,183.00",
+   "invoiceDate": "2026-09-03",
+   "supplierName": "Cobalt Cloud Inc",
+   "amountInWords": "US Dollars Eight Thousand Four Hundred Thirty Three Only",
+   "invoiceNumber": "S7/26-27/1002",
+   "supplierGstin": "",
+   "placeOfSupplyCode": ""
+  }
+ },
+ "b17370a19a044025285f0a97bb1275e02bacc1a51951091790824dc973453b3b": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "2",
+     "sku": "TORQUE-KIT",
+     "rate": "189.99",
+     "amount": "379.98",
+     "gstRate": "",
+     "description": "Torque wrench kit"
+    }
+   ],
+   "charges": [
+    {
+     "label": "Fuel surcharge",
+     "amount": "12.60"
+    }
+   ],
+   "currency": "USD",
+   "poNumber": "PO/NB/2401",
+   "roundOff": "",
+   "buyerGstin": "",
+   "confidence": 1,
+   "grandTotal": "392.58",
+   "invoiceDate": "2026-09-02",
+   "supplierName": "Meridian Tools LLC",
+   "amountInWords": "US Dollars Three Hundred Ninety Two and Fifty Eight Cents Only",
+   "invoiceNumber": "S8/26-27/1001",
+   "supplierGstin": "",
+   "placeOfSupplyCode": ""
+  }
+ },
+ "f036e3f2c44b174348bb6a06950314b8618548f4a8fd7b80011de04c3658a59f": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "2",
+     "sku": "SUPPORT-PRO",
+     "rate": "1,200.00",
+     "amount": "2,400.00",
+     "gstRate": "",
+     "description": "Pro support plan (monthly)"
+    },
+    {
+     "hsn": "",
+     "qty": "164",
+     "sku": "CLOUD-SEAT",
+     "rate": "49.00",
+     "amount": "8,036.00",
+     "gstRate": "",
+     "description": "Cloud workspace seat (monthly)"
+    }
+   ],
+   "charges": [],
+   "currency": "USD",
+   "poNumber": "PO/NB/2414",
+   "roundOff": "",
+   "buyerGstin": "",
+   "confidence": 0.9,
+   "grandTotal": "10,447.00",
+   "invoiceDate": "2026-09-15",
+   "supplierName": "Cobalt Cloud Inc",
+   "amountInWords": "US Dollars Ten Thousand Four Hundred Forty Seven Only",
+   "invoiceNumber": "S7/26-27/1014",
+   "supplierGstin": "",
+   "placeOfSupplyCode": ""
+  }
+ },
+ "a803c99e8bcd4a08b02bd1a7fcb1fa7d300da1ebe50f82be5ad99ebd5cbeac5c": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "",
+     "qty": "18",
+     "sku": "TORQUE-KIT",
+     "rate": "189.99",
+     "amount": "3,419.82",
+     "gstRate": "",
+     "description": "Torque wrench kit"
+    },
+    {
+     "hsn": "",
+     "qty": "28",
+     "sku": "CALIPER-D",
+     "rate": "74.50",
+     "amount": "2,086.00",
+     "gstRate": "",
+     "description": "Digital caliper, 150 mm"
+    }
+   ],
+   "charges": [],
+   "currency": "USD",
+   "poNumber": "PO/NB/2411",
+   "roundOff": "",
+   "buyerGstin": "",
+   "confidence": 1,
+   "grandTotal": "5,505.82",
+   "invoiceDate": "2026-09-12",
+   "supplierName": "Meridian Tools LLC",
+   "amountInWords": "US Dollars Five Thousand Five Hundred Five and Eighty Two Cents Only",
+   "invoiceNumber": "S8/26-27/1011",
+   "supplierGstin": "",
+   "placeOfSupplyCode": ""
+  }
+ },
+ "e55d67f275381cd9de7ecc33b5e5f29be1c1e4a66c0e30d4ad41493c40bfd12f": {
+  "model": "qwen/qwen3.8-27b",
+  "result": {
+   "cgst": "2,835.00",
+   "igst": "",
+   "sgst": "2,835.00",
+   "lines": [
+    {
+     "hsn": "9983",
+     "qty": "7",
+     "sku": "AUD-HR",
+     "rate": "4,500.00",
+     "amount": "31,500.00",
+     "gstRate": "18%",
+     "description": "Audit support services (per hour)"
+    }
+   ],
+   "charges": [
+    {
+     "label": "Fuel surcharge",
+     "amount": "635.00"
+    }
+   ],
+   "currency": "INR",
+   "poNumber": "PO/KN/2416",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 0.95,
+   "grandTotal": "37,805.00",
+   "invoiceDate": "17-09-2026",
+   "supplierName": "Ledgerwise Consulting LLP",
+   "amountInWords": "Rupees Thirty Seven Thousand Eight Hundred Five Only",
+   "invoiceNumber": "S5/26-27/1016",
+   "supplierGstin": "29AAHFL3302B1ZT",
+   "placeOfSupplyCode": "29"
+  }
+ },
+ "7c4ba248aa0ec848c9d51415bff9c4ce9027bf15d601b80fc241fafd3fec3c6a": {
+  "model": "openai/gpt-oss-120b",
+  "result": {
+   "cgst": "",
+   "igst": "32,670.00",
+   "sgst": "",
+   "lines": [
+    {
+     "hsn": "9983",
+     "qty": "15",
+     "sku": "LTL-PALLET",
+     "rate": "6,500.00",
+     "amount": "97,500.00",
+     "gstRate": "18%",
+     "description": "Part load, per pallet"
+    },
+    {
+     "hsn": "9983",
+     "qty": "2",
+     "sku": "FTL-BLR-MUM",
+     "rate": "42,000.00",
+     "amount": "84,000.00",
+     "gstRate": "18%",
+     "description": "Full truck load, Bengaluru to Mumbai"
+    }
+   ],
+   "charges": [],
+   "currency": "INR",
+   "poNumber": "PO/KN/2417",
+   "roundOff": "0.00",
+   "buyerGstin": "29AAKCK4821N1ZY",
+   "confidence": 1,
+   "grandTotal": "2,14,170.00",
+   "invoiceDate": "18-09-2026",
+   "supplierName": "Harborline Freight",
+   "amountInWords": "Rupees Two Lakh Fourteen Thousand One Hundred Seventy Only",
+   "invoiceNumber": "S6/26-27/1017",
+   "supplierGstin": "27AABCH6624H1ZM",
+   "placeOfSupplyCode": "29"
+  }
+ }
+}
