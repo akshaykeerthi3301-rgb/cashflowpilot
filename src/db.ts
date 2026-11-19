@@ -10,9 +10,10 @@ const TABLES = ["workspaces", "leads", "outbox", "audit", "review_queue", "direc
 const g = globalThis as unknown as { __cfpDb?: Promise<{ run: Runner; exec: (s: string) => Promise<void> }> };
 
 async function connect() {
-  if (process.env.DATABASE_URL) {
+  const url = process.env.DATABASE_URL || process.env.POSTGRES_URL; // Vercel's Neon integration may set either
+  if (url) {
     const { neon } = await import("@neondatabase/serverless");
-    const sql = neon(process.env.DATABASE_URL);
+    const sql = neon(url);
     const run: Runner = (q, p) => sql.query(q, p) as Promise<unknown[]>;
     const exec = async (s: string) => {
       for (const stmt of s.split(";").map((x) => x.trim()).filter(Boolean)) await sql.query(stmt);
